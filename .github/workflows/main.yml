@@ -30,12 +30,15 @@ jobs:
       - name: Cypress run Chrome
         uses: cypress-io/github-action@v2
         with:
+          build: npm run build
           start: npm run test:e2e:ci:chrome
       - name: Cypress run Firefox
         uses: cypress-io/github-action@v2
         with:
+          build: npm run build
           start: npm run test:e2e:ci:firefox
       - name: Cypress run Edge
         uses: cypress-io/github-action@v2
         with:
+          build: npm run build
           start: npm run test:e2e:ci:edge
