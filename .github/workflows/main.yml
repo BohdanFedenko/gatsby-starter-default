@@ -27,8 +27,21 @@ jobs:
     # triggered a workflow, this defaults to the reference or SHA for that event.
     # Otherwise, defaults to `master`.
             ref: 'Testing'
-      - name: Cypress run
+      - name: Cypress run Chrome
         uses: cypress-io/github-action@v2
         with:
-          build: npm run build
+          browser: chrome
+          headless: true
+          start: npm run test:e2e:ci
+      - name: Cypress run Firefox
+        uses: cypress-io/github-action@v2
+        with:
+          browser: firefox
+          headless: true
+          start: npm run test:e2e:ci
+      - name: Cypress run Edge
+        uses: cypress-io/github-action@v2
+        with:
+          browser: edge
+          headless: true
           start: npm run test:e2e:ci
