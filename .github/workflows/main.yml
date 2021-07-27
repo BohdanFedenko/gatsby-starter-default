@@ -30,18 +30,12 @@ jobs:
       - name: Cypress run Chrome
         uses: cypress-io/github-action@v2
         with:
-          browser: chrome
-          headless: true
-          start: npm run test:e2e:ci
+          start: npm run test:e2e:ci:chrome
       - name: Cypress run Firefox
         uses: cypress-io/github-action@v2
         with:
-          browser: firefox
-          headless: true
-          start: npm run test:e2e:ci
+          start: npm run test:e2e:ci:firefox
       - name: Cypress run Edge
         uses: cypress-io/github-action@v2
         with:
-          browser: edge
-          headless: true
-          start: npm run test:e2e:ci
+          start: npm run test:e2e:ci:edge
