@@ -32,31 +32,3 @@ jobs:
         with:
           build: npm run build
           start: npm run test:e2e:ci:chrome
-      - name: Checkout
-        uses: actions/checkout@v2
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-        with:
-    # The branch, tag or SHA to checkout. When checking out the repository that
-    # triggered a workflow, this defaults to the reference or SHA for that event.
-    # Otherwise, defaults to `master`.
-            ref: 'Testing'
-      - name: Cypress run Firefox
-        uses: cypress-io/github-action@v2
-        with:
-          build: npm run build
-          start: npm run test:e2e:ci:firefox
-      - name: Checkout
-        uses: actions/checkout@v2
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-        with:
-    # The branch, tag or SHA to checkout. When checking out the repository that
-    # triggered a workflow, this defaults to the reference or SHA for that event.
-    # Otherwise, defaults to `master`.
-            ref: 'Testing'
-      - name: Cypress run Edge
-        uses: cypress-io/github-action@v2
-        with:
-          build: npm run build
-          start: npm run test:e2e:ci:edge
