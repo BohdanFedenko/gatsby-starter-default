@@ -16,6 +16,12 @@ jobs:
   cypress-run:
     runs-on: windows-latest
     steps:
+      - name: Merge master -> Testing
+        uses: devmasx/merge-branch@v1.3.1
+        with:
+          type: now
+          target_branch: Testing
+          github_token: ${{ github.token }}
       - name: Checkout
         uses: actions/checkout@v2
       # Install NPM dependencies, cache them correctly
@@ -25,15 +31,6 @@ jobs:
     # triggered a workflow, this defaults to the reference or SHA for that event.
     # Otherwise, defaults to `master`.
             ref: 'Testing'
-      - name: Opening pull request
-        id: pull
-        uses: tretuna/sync-branches@1.2.0
-        with:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          FROM_BRANCH: "master"
-          TO_BRANCH: "Testing"
-      - name: Close pull request
-        uses: superbrothers/close-pull-request@v3
       - name: 'NPM Install'
         run: npm install
       - name: Run gatsby develop and Cypress Chrome
