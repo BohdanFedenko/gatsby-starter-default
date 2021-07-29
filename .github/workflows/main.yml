@@ -14,7 +14,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   cypress-run:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Merge master -> Testing
         uses: devmasx/merge-branch@v1.3.1
