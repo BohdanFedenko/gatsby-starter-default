@@ -28,7 +28,11 @@ jobs:
             ref: 'Testing'
       - name: 'NPM Install'
         run: npm install
-      - name: Run gatsby develop and Cypress
+      - name: Run gatsby develop and Cypress Chrome
         run: npm run test:e2e:ci:chrome 
+      - name: Run gatsby develop and Cypress Edge
+        run: npm run test:e2e:ci:edge
+      - name: Run gatsby develop and Cypress Firefox
+        run: npm run test:e2e:ci:firefox
     
          
