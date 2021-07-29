@@ -13,15 +13,18 @@ on:
   workflow_dispatch:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  cypress-run:
+  merge:
     runs-on: ubuntu-latest
     steps:
-      - name: Merge master -> Testing
+      - name: Merge from current branch to the Testing
         uses: devmasx/merge-branch@v1.3.1
         with:
           type: now
           target_branch: Testing
           github_token: ${{ github.token }}
+  cypress-run:
+    runs-on: windiws-latest
+    steps:
       - name: Checkout
         uses: actions/checkout@v2
       # Install NPM dependencies, cache them correctly
