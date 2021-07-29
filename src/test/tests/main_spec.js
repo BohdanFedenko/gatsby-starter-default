@@ -4,7 +4,7 @@ describe('Main spec', () => {
     })
 
     it('Title text', () => {
-        cy.get('h1 a').should('have.text', 'Gatsby Default Starter 1');
+        cy.get('h1 a').should('have.text', 'Gatsby Default Starter');
     })
 
     it('Title text', () => {
