@@ -32,13 +32,13 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           FROM_BRANCH: "master"
           TO_BRANCH: "Testing"
+      - name: Close pull request
+      - uses: superbrothers/close-pull-request@v3
       - name: 'NPM Install'
         run: npm install
       - name: Run gatsby develop and Cypress Chrome
         run: npm run test:e2e:ci:chrome 
       - name: Run gatsby develop and Cypress Edge
         run: npm run test:e2e:ci:edge
-      - name: Run gatsby develop and Cypress Firefox
-        run: npm run test:e2e:ci:firefox
     
          
