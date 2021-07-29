@@ -14,8 +14,14 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   cypress-run:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
+      - name: Merge master -> Testing
+        uses: devmasx/merge-branch@v1.3.1
+        with:
+          type: now
+          target_branch: Testing
+          github_token: ${{ github.token }}
       - name: Checkout
         uses: actions/checkout@v2
       # Install NPM dependencies, cache them correctly
@@ -25,20 +31,11 @@ jobs:
     # triggered a workflow, this defaults to the reference or SHA for that event.
     # Otherwise, defaults to `master`.
             ref: 'Testing'
-      - name: Opening pull request
-        id: pull
-        uses: tretuna/sync-branches@1.2.0
-        with:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          FROM_BRANCH: "master"
-          TO_BRANCH: "Testing"
       - name: 'NPM Install'
         run: npm install
       - name: Run gatsby develop and Cypress Chrome
         run: npm run test:e2e:ci:chrome 
       - name: Run gatsby develop and Cypress Edge
         run: npm run test:e2e:ci:edge
-      - name: Run gatsby develop and Cypress Firefox
-        run: npm run test:e2e:ci:firefox
     
          
