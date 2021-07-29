@@ -34,8 +34,8 @@ jobs:
         run: npm i
       - name: 'gasby develope'
         run: gatsby develop 
-      - name: Cypress run Chrome
-        uses: cypress-io/github-action@v2
+      - uses: actions/checkout@v2
+      - uses: cypress-io/github-action@v2
         with:
           browser: chrome
           
