@@ -33,7 +33,7 @@ jobs:
           FROM_BRANCH: "master"
           TO_BRANCH: "Testing"
       - name: Close pull request
-      - uses: superbrothers/close-pull-request@v3
+        uses: superbrothers/close-pull-request@v3
       - name: 'NPM Install'
         run: npm install
       - name: Run gatsby develop and Cypress Chrome
