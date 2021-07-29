@@ -32,7 +32,7 @@ jobs:
           node-version: 'v14.15.5'
           run: npm i
       - name: 'gasby develope'
-        run: gatsby develop 
+        run:  npm run develop
       - uses: actions/checkout@v2
       - uses: cypress-io/github-action@v2
         with:
