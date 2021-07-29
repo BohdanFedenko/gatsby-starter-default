@@ -26,12 +26,11 @@ jobs:
     # triggered a workflow, this defaults to the reference or SHA for that event.
     # Otherwise, defaults to `master`.
             ref: 'Testing'
-      - uses: actions/setup-node@v1
-      - name: 'setup node'
+      - name: Checkout
+        uses: actions/setup-node@v1
         with:
           node-version: 'v14.15.5'
-      - name: 'install'
-        run: npm i
+          run: npm i
       - name: 'gasby develope'
         run: gatsby develop 
       - uses: actions/checkout@v2
