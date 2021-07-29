@@ -38,8 +38,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "cypress:open": "cypress open",
     "cypress:run:chrome": "cypress run --browser chrome",
-    "cypress:run:firefox": "cypress run --browser chrome",
-    "cypress:run:edge": "cypress run --browser chrome",
+    "cypress:run:firefox": "cypress run --browser firefox",
+    "cypress:run:edge": "cypress run --browser edge",
     "test:e2e:ci:chrome": "start-server-and-test develop http://localhost:8000 cypress:run:chrome",
     "test:e2e:ci:firefox": "start-server-and-test develop http://localhost:8000 cypress:run:firefox",
     "test:e2e:ci:edge": "start-server-and-test develop http://localhost:8000 cypress:run:edge"
