@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-merge-from-master:
+  merge-from-master:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@master
@@ -24,7 +24,7 @@ merge-from-master:
             from_branch: master
             target_branch: Testing
             github_token: ${{ github.token }}
-merge:
+  merge:
     needs: merge-from-master
     runs-on: ubuntu-latest
     steps:
