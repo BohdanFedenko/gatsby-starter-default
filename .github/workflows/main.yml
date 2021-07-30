@@ -32,7 +32,7 @@ jobs:
       with:
           type: now
           target_branch: Testing
-          github_token: ${{ github.token }
+          github_token: ${{ github.token }}
   cypress-run:
     needs:  merge
     runs-on: windows-latest
