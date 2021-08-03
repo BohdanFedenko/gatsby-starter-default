@@ -85,6 +85,7 @@ jobs:
       - name: Run gatsby develop and Cypress Firefox
         run: npm run test:e2e:ci:firefox
   allure:
+    needs: cypress-chrome
     name: Generate Allure Report
     runs-on: ubuntu-latest
     steps:
