@@ -84,19 +84,32 @@ jobs:
         run: npm install
       - name: Run gatsby develop and Cypress Firefox
         run: npm run test:e2e:ci:firefox
-  allure-result:
+  allure:
     needs: cypress-chrome
+    name: Generate Allure Report
     runs-on: ubuntu-latest
     steps:
-      - name: Test marketplace action
+      - uses: actions/checkout@v2
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
         if: always()
-        id: allure-report
+        #id: allure-report
         with:
-          allure_results: build/allure-results
-          gh_pages: gh-pages
-          allure_report: allure-report
-          allure_history: allure-history 
+          allure_results: allure-results
+          #gh_pages: gh-pages
+          #allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
+
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
@@ -104,11 +117,3 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
-      - name: Post the link to the report
-        if: always()
-        uses: Sibz/github-status-action@v1
-        with: 
-          authToken: ${{secrets.GITHUB_TOKEN}}
-          context: 'Test report'
-          sha: ${{ github.event.pull_request.head.sha }}
-          target_url: simple-elf.github.io/github-allure-history/${{ github.run_number }}
