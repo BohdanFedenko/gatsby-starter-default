@@ -4,7 +4,6 @@ describe('Main spec', () => {
     })
 
     it('Title text', () => {
-        cy.allure().step('Check');
         cy.get('h1 a').should('have.text', 'Gatsby Default Starter');
     })
 
