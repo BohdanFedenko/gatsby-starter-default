@@ -108,12 +108,10 @@ jobs:
           path: gh-pages
       - name: Download math result for job 1
         uses: actions/download-artifact@v2
-        with:
-          name: allure-results
       - shell: bash
         run: | 
-              mkdir -p allure-results
-              cp -a /allure-results/. /allure-results/
+              rm -rf allure-results
+              mv artifact/* ./
       - uses: actions/checkout@v2
 
       - name: Allure Report action from marketplace
