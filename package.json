@@ -20,7 +20,10 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "2.3.2"
+    "@shelex/cypress-allure-plugin": "^2.9.0",
+    "cypress": "^8.0.0",
+    "prettier": "2.3.2",
+    "start-server-and-test": "^1.13.1"
   },
   "keywords": [
     "gatsby"
@@ -33,7 +36,18 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:firefox": "cypress run --browser firefox",
+    "cypress:run:edge": "cypress run --browser edge",
+    "test:e2e:ci:chrome": "start-server-and-test develop http://localhost:8000 cypress:run:chrome",
+    "test:e2e:ci:firefox": "start-server-and-test develop http://localhost:8000 cypress:run:firefox",
+    "test:e2e:ci:edge": "start-server-and-test develop http://localhost:8000 cypress:run:edge",
+    "allure-report": "allure generate allure-results --clean -o allure-report && allure open  allure-report",
+    "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
+    "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
+
   },
   "repository": {
     "type": "git",
