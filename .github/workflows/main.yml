@@ -106,13 +106,18 @@ jobs:
         with:
           ref: gh-pages
           path: gh-pages
+      - shell: bash
+        run: |
+              cd ..
       - name: Download math result for job 1
         uses: actions/download-artifact@v2
         with:
              name: allure-results
 #              path: allure-results       
       - uses: actions/checkout@v2
-
+      - shell: bash
+        run: |
+              cd /root
       - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
         if: always()
