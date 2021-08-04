@@ -50,7 +50,8 @@ jobs:
       - name: 'NPM Install'
         run: npm install
       - name: Run gatsby develop and Cypress Chrome
-        run: npm run test:e2e:ci:chrome   
+        run: npm run test:e2e:ci:chrome 
+        if: always() 
       - name: Generate Allure Report
         uses: actions/checkout@v2
       - name: Get Allure history
@@ -61,7 +62,7 @@ jobs:
             ref: gh-pages
             path: gh-pages
       - name: Allure Report action from marketplace
-        uses: simple-elf/allure-report-action@master
+        uses: simple-elf/allure-report-action@Testing
         if: always()
         #id: allure-report
         with:
