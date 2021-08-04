@@ -51,6 +51,7 @@ jobs:
       - name: Run gatsby develop and Cypress Chrome
         run: npm run test:e2e:ci:chrome  
       - name: Upload allure-results
+        if: always()
         continue-on-error: true
         uses: actions/upload-artifact@v2
         with:
