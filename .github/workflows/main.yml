@@ -50,7 +50,8 @@ jobs:
         run: npm install
       - name: Run gatsby develop and Cypress Chrome
         run: npm run test:e2e:ci:chrome  
-      - name: Upload allure-result
+        if: always()
+      - name: Upload allure-results
         uses: actions/upload-artifact@v2
         with:
           name: allure-results
