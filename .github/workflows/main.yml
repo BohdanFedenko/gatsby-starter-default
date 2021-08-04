@@ -109,7 +109,8 @@ jobs:
       - name: Download math result for job 1
         uses: actions/download-artifact@v2
         with:
-            name: allure-results         
+             name: allure-results
+             path: allure-results       
       - uses: actions/checkout@v2
 
       - name: Allure Report action from marketplace
