@@ -7,6 +7,8 @@ yarn-error.log*
 .idea
 /cypress/videos/
 /cypress/screenshots/
+/allure-report/
+/allure-results/
 
 # Runtime data
 pids

@@ -15,6 +15,25 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-
+import '@shelex/cypress-allure-plugin';
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+//Categories for separate the test results
+before(function () {
+    cy.allure().writeCategoriesDefinitions([
+        {
+            "name": "OK",
+            "matchedStatuses": ["passed"]
+        },
+        {
+            "name": "Ignored tests",
+            "matchedStatuses": ["skipped"]
+        },
+        {
+            "name": "Product defects",
+            "matchedStatuses": ["failed"]
+        }
+    ]);
+})
+
