@@ -49,14 +49,7 @@ jobs:
       - name: 'NPM Install'
         run: npm install
       - name: Run gatsby develop and Cypress Chrome
-        run: npm run test:e2e:ci:chrome  
-      - name: Send Results and Generate Allure Report
-        uses: Xotabu4/send-to-allure-server-action@1
-        # always() needed because we want report for failed tests as well
-        if: ${{ always() }}
-        with:
-         allure-server-url: 'http://93.26.97.71:5001/'
-        
+        run: npm run test:e2e:ci:chrome         
 ## Upload artifacts
 #       - name: Upload allure-results
 #         if: always()
