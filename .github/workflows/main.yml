@@ -50,13 +50,16 @@ jobs:
         run: npm install
       - name: Run gatsby develop and Cypress Chrome
         run: npm run test:e2e:ci:chrome  
-      - name: Upload allure-results
-        if: always()
-        continue-on-error: true
-        uses: actions/upload-artifact@v2
-        with:
-          name: allure-results
-          path: allure-results
+        
+## Upload artifacts
+#       - name: Upload allure-results
+#         if: always()
+#         continue-on-error: true
+#         uses: actions/upload-artifact@v2
+#         with:
+#           name: allure-results
+#           path: allure-results
+          
 #   cypress-edge:
 #     needs:  merge
 #     runs-on: windows-latest
@@ -107,10 +110,14 @@ jobs:
           ref: gh-pages
           path: gh-pages
       - uses: actions/checkout@v2
-      - name: Download math result for job 1
-        uses: actions/download-artifact@v2
-        with:
-             name: allure-results
+      
+## Download artifacts
+#       - name: Download allure-results
+#         uses: actions/download-artifact@v2
+#         with:
+#              name: allure-results
+             
+             
       - name: Allure Report action
         uses: simple-elf/allure-report-action@master
         #uses: ./allure-report-action
