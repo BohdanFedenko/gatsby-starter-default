@@ -110,7 +110,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
              name: allure-results
-             path: ~/     
+             path: ~/work/gatsby-starter-default     
       - uses: actions/checkout@v2
 
       - name: Allure Report action from marketplace
