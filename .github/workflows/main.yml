@@ -50,6 +50,12 @@ jobs:
         run: npm install
       - name: Run gatsby develop and Cypress Chrome
         run: npm run test:e2e:ci:chrome  
+      - name: Send Results and Generate Allure Report
+        uses: Xotabu4/send-to-allure-server-action@1
+        # always() needed because we want report for failed tests as well
+        if: ${{ always() }}
+        with:
+         allure-server-url: 'http://localhost:8080/'
         
 ## Upload artifacts
 #       - name: Upload allure-results
@@ -96,37 +102,37 @@ jobs:
 #         run: npm run test:e2e:ci:firefox
 
 #  Launch separately   
-  allure:
-    if: always()
-    needs: cypress-chrome
-    name: Generate Allure Report
-    runs-on: ubuntu-latest
-    steps:
-#       - uses: actions/checkout@v2
+#   allure:
+#     if: always()
+#     needs: cypress-chrome
+#     name: Generate Allure Report
+#     runs-on: ubuntu-latest
+#     steps:
+# #       - uses: actions/checkout@v2
 
-      - name: Get Allure history
-        uses: actions/checkout@v2
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
+#       - name: Get Allure history
+#         uses: actions/checkout@v2
+#         if: always()
+#         continue-on-error: true
+#         with:
+#           ref: gh-pages
+#           path: gh-pages
 
-      - name: Allure Report action from marketplace
-        uses: simple-elf/allure-report-action@master
-        if: always()
-        #id: allure-report
-        with:
-          allure_results: allure-results
-          #gh_pages: gh-pages
-          #allure_report: allure-report
-          allure_history: allure-history
-          keep_reports: 20
+#       - name: Allure Report action from marketplace
+#         uses: simple-elf/allure-report-action@master
+#         if: always()
+#         #id: allure-report
+#         with:
+#           allure_results: allure-results
+#           #gh_pages: gh-pages
+#           #allure_report: allure-report
+#           allure_history: allure-history
+#           keep_reports: 20
 
-      - name: Deploy report to Github Pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v2
-        env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
+#       - name: Deploy report to Github Pages
+#         if: always()
+#         uses: peaceiris/actions-gh-pages@v2
+#         env:
+#           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#           PUBLISH_BRANCH: gh-pages
+#           PUBLISH_DIR: allure-history
