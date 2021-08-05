@@ -50,82 +50,82 @@ jobs:
         run: npm install
       - name: Run gatsby develop and Cypress Chrome
         run: npm run test:e2e:ci:chrome         
-## Upload artifacts
-#       - name: Upload allure-results
-#         if: always()
-#         continue-on-error: true
-#         uses: actions/upload-artifact@v2
-#         with:
-#           name: allure-results
-#           path: allure-results
+# Upload artifacts
+      - name: Upload allure-results
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-results
+          path: allure-results
           
-#   cypress-edge:
-#     needs:  merge
-#     runs-on: windows-latest
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v2
-#       # Install NPM dependencies, cache them correctly
-#       # and run all Cypress tests
-#         with:
-#     # The branch, tag or SHA to checkout. When checking out the repository that
-#     # triggered a workflow, this defaults to the reference or SHA for that event.
-#     # Otherwise, defaults to `master`.
-#             ref: 'Testing'
-#       - name: 'NPM Install'
-#         run: npm install
-#       - name: Run gatsby develop and Cypress Edge
-#         run: npm run test:e2e:ci:edge
-#   cypress-firefox:
-#     needs:  merge
-#     runs-on: windows-latest
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v2
-#       # Install NPM dependencies, cache them correctly
-#       # and run all Cypress tests
-#         with:
-#     # The branch, tag or SHA to checkout. When checking out the repository that
-#     # triggered a workflow, this defaults to the reference or SHA for that event.
-#     # Otherwise, defaults to `master`.
-#             ref: 'Testing'
-#       - name: 'NPM Install'
-#         run: npm install
-#       - name: Run gatsby develop and Cypress Firefox
-#         run: npm run test:e2e:ci:firefox
+  cypress-edge:
+    needs:  merge
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+        with:
+    # The branch, tag or SHA to checkout. When checking out the repository that
+    # triggered a workflow, this defaults to the reference or SHA for that event.
+    # Otherwise, defaults to `master`.
+            ref: 'Testing'
+      - name: 'NPM Install'
+        run: npm install
+      - name: Run gatsby develop and Cypress Edge
+        run: npm run test:e2e:ci:edge
+  cypress-firefox:
+    needs:  merge
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+        with:
+    # The branch, tag or SHA to checkout. When checking out the repository that
+    # triggered a workflow, this defaults to the reference or SHA for that event.
+    # Otherwise, defaults to `master`.
+            ref: 'Testing'
+      - name: 'NPM Install'
+        run: npm install
+      - name: Run gatsby develop and Cypress Firefox
+        run: npm run test:e2e:ci:firefox
 
 #  Launch separately   
-#   allure:
-#     if: always()
-#     needs: cypress-chrome
-#     name: Generate Allure Report
-#     runs-on: ubuntu-latest
-#     steps:
-# #       - uses: actions/checkout@v2
+  allure:
+    if: always()
+    needs: cypress-chrome
+    name: Generate Allure Report
+    runs-on: ubuntu-latest
+    steps:
+#       - uses: actions/checkout@v2
 
-#       - name: Get Allure history
-#         uses: actions/checkout@v2
-#         if: always()
-#         continue-on-error: true
-#         with:
-#           ref: gh-pages
-#           path: gh-pages
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
 
-#       - name: Allure Report action from marketplace
-#         uses: simple-elf/allure-report-action@master
-#         if: always()
-#         #id: allure-report
-#         with:
-#           allure_results: allure-results
-#           #gh_pages: gh-pages
-#           #allure_report: allure-report
-#           allure_history: allure-history
-#           keep_reports: 20
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        #id: allure-report
+        with:
+          allure_results: allure-results
+          #gh_pages: gh-pages
+          #allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
 
-#       - name: Deploy report to Github Pages
-#         if: always()
-#         uses: peaceiris/actions-gh-pages@v2
-#         env:
-#           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#           PUBLISH_BRANCH: gh-pages
-#           PUBLISH_DIR: allure-history
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
