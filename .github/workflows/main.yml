@@ -102,7 +102,7 @@ jobs:
     name: Generate Allure Report
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+#       - uses: actions/checkout@v2
 
       - name: Get Allure history
         uses: actions/checkout@v2
