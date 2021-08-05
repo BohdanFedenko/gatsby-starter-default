@@ -94,7 +94,7 @@ jobs:
       - name: Run gatsby develop and Cypress Firefox
         run: npm run test:e2e:ci:firefox
 
- Launch separately   
+#  Launch separately   
   allure:
     if: always()
     needs: cypress-chrome
