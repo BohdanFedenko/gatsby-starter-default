@@ -97,6 +97,8 @@ jobs:
 
 #  Launch separately   
   allure:
+    if: always()
+    needs: cypress-chrome
     name: Generate Allure Report
     runs-on: ubuntu-latest
     steps:
