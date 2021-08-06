@@ -123,7 +123,7 @@ jobs:
       - name: Download allure-results
         uses: actions/download-artifact@v2
         with:
-#            name: allure-results-chrome
+           name: allure-results-chrome
            path: allure-results
 #       - uses: actions/checkout@v2
 
