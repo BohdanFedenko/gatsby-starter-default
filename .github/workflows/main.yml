@@ -123,9 +123,24 @@ jobs:
       - name: Download allure-results
         uses: actions/download-artifact@v2
         with:
-           name: allure-results-chrome
-           path: allure-results
+#            name: allure-results-chrome
+          path: allure-results
 #       - uses: actions/checkout@v2
+      - name: copy file
+        uses: canastro/copy-file-action@master
+        with:
+          source: "/home/runner/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-chrome"
+          target: "/home/runner/work/gatsby-starter-default/gatsby-starter-default/allure-results"
+      - name: copy file 2
+        uses: canastro/copy-file-action@master
+        with:
+          source: "/home/runner/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-edge"
+          target: "/home/runner/work/gatsby-starter-default/gatsby-starter-default/allure-results"
+      - name: copy file 3
+        uses: canastro/copy-file-action@master
+        with:
+          source: "/home/runner/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-firefox"
+          target: "/home/runner/work/gatsby-starter-default/gatsby-starter-default/allure-results"
 
       - name: Get Allure history
         uses: actions/checkout@v2
