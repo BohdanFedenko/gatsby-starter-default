@@ -110,6 +110,13 @@ jobs:
         with:
           ref: gh-pages
           path: gh-pages
+      - name: Download math result for job 2
+        uses: actions/download-artifact@v2
+        with:
+           name: allure-results
+      - name: Display structure of downloaded files
+        run: ls -R
+        working-directory: allure-results
 
       - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
