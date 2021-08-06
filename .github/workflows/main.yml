@@ -120,20 +120,10 @@ jobs:
     name: Generate Allure Report
     runs-on: ubuntu-latest
     steps:
-      - name: Download math result for job 2
+      - name: Download allure-results
         uses: actions/download-artifact@v2
         with:
-           name: allure-results-chrome
-           path: allure-results
-      - name: Download math result for job 2
-        uses: actions/download-artifact@v2
-        with:
-           name: allure-results-edge
-           path: allure-results
-      - name: Download math result for job 2
-        uses: actions/download-artifact@v2
-        with:
-           name: allure-results-firefox
+#            name: allure-results-chrome
            path: allure-results
 #       - uses: actions/checkout@v2
 
