@@ -129,17 +129,17 @@ jobs:
       - name: copy file
         uses: canastro/copy-file-action@master
         with:
-          source: "allure-results/allure-results-chrome"
+          source: "allure-results/allure-results-chrome/"
           target: "allure-results"
       - name: copy file 2
         uses: canastro/copy-file-action@master
         with:
-          source: "allure-results/allure-results-edge"
+          source: "allure-results/allure-results-edge/"
           target: "allure-results"
       - name: copy file 3
         uses: canastro/copy-file-action@master
         with:
-          source: "allure-results/allure-results-firefox"
+          source: "allure-results/allure-results-firefox/"
           target: "allure-results"
 
       - name: Get Allure history
