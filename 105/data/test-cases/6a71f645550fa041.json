@@ -1,0 +1,129 @@
+{
+  "uid" : "6a71f645550fa041",
+  "name" : "Skipped test",
+  "fullName" : "Skipped test",
+  "historyId" : "d7553d303aff0fbfc2c5fc98b185ad04",
+  "time" : {
+    "start" : 1628281308805,
+    "stop" : 1628281308806,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "should overwrite previous environment info",
+      "value" : "{\n    \"Browser\": \"chrome\",\n    \"Platform\": \"win32\",\n    \"Architecture\": \"x64\",\n    \"Cypress version\": \"8.0.0\"\n}"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Test ignored",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "home_page_spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home page spec"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 5,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "965e9c1d83373c7",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/103//#testresult/965e9c1d83373c7",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1628279435584,
+          "stop" : 1628279435585,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a2e0d4768c511001",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/102//#testresult/a2e0d4768c511001",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1628278514970,
+          "stop" : 1628278514975,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "16ae14dc71525a17",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/101//#testresult/16ae14dc71525a17",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1628277716265,
+          "stop" : 1628277716266,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "519157683eb44afd",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/100//#testresult/519157683eb44afd",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1628257201652,
+          "stop" : 1628257201653,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6a71f645550fa041.json",
+  "parameterValues" : [ ]
+}
