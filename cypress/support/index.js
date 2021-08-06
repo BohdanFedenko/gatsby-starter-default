@@ -16,12 +16,21 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import '@shelex/cypress-allure-plugin';
+
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
 //Categories for separate the test results
 before(function () {
-    cy.allure().writeCategoriesDefinitions([
+
+    const environmentProperties = {
+        'Browser': Cypress.browser.name,
+        'Platform': Cypress.platform,
+        'Architecture': Cypress.arch,
+        'Cypress version': Cypress.version
+    };
+
+    const categoriesJson = [
         {
             "name": "OK",
             "matchedStatuses": ["passed"]
@@ -34,6 +43,16 @@ before(function () {
             "name": "Product defects",
             "matchedStatuses": ["failed"]
         }
-    ]);
-})
+    ];
+
+    cy.allure().writeCategoriesDefinitions(categoriesJson);
+
+    cy.allure()
+        .writeEnvironmentInfo(environmentProperties)
+        .parameter(
+            'should overwrite previous environment info',
+            JSON.stringify(environmentProperties, null, 4)
+        );
+});
+
 
