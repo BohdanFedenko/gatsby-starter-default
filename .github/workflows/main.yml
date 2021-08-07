@@ -128,7 +128,7 @@ jobs:
 #       - uses: actions/checkout@v2
       - name: copy file
         shell: bash
-        run: cp -a ~/allure-results-chrome/* /allure-results/ 
+        run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-chrome/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/ 
       - name: copy file 2
         shell: bash
         run: cp -a ~/allure-results-edge/* /allure-results/ 
