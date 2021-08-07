@@ -127,20 +127,14 @@ jobs:
           path: allure-results
 #       - uses: actions/checkout@v2
       - name: copy file
-        uses: canastro/copy-file-action@master
-        with:
-          source: "allure-results/allure-results-chrome/"
-          target: "allure-results"
+        shell: bash
+        run: cp -a /allure-results-chrome/. /allure-results/ 
       - name: copy file 2
-        uses: canastro/copy-file-action@master
-        with:
-          source: "allure-results/allure-results-edge/"
-          target: "allure-results"
+        shell: bash
+        run: cp -a /allure-results-edge/. /allure-results/ 
       - name: copy file 3
-        uses: canastro/copy-file-action@master
-        with:
-          source: "allure-results/allure-results-firefox/"
-          target: "allure-results"
+        shell: bash
+        run: cp -a /allure-results-firefox/. /allure-results/ 
 
       - name: Get Allure history
         uses: actions/checkout@v2
