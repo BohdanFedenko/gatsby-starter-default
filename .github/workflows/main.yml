@@ -126,15 +126,15 @@ jobs:
 #            name: allure-results-chrome
           path: allure-results
 #       - uses: actions/checkout@v2
-      - name: copy file
+      - name: copy file chrome
         shell: bash
         run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-chrome/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/ 
-      - name: copy file 2
+      - name: copy file edge
         shell: bash
-        run: cp -a ~/allure-results-edge/* /allure-results/ 
-      - name: copy file 3
+        run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-edge/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results
+      - name: copy file firefox
         shell: bash
-        run: cp -a ~/allure-results-firefox/* /allure-results/ 
+        run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-firefox/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results
 
       - name: Get Allure history
         uses: actions/checkout@v2
