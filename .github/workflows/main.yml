@@ -128,13 +128,13 @@ jobs:
 #       - uses: actions/checkout@v2
       - name: copy file
         shell: bash
-        run: cp -a ~/allure-results-chrome/. /allure-results/ 
+        run: cp -a ~/allure-results-chrome/* /allure-results/ 
       - name: copy file 2
         shell: bash
-        run: cp -a ~/allure-results-edge/. /allure-results/ 
+        run: cp -a ~/allure-results-edge/* /allure-results/ 
       - name: copy file 3
         shell: bash
-        run: cp -a ~/allure-results-firefox/. /allure-results/ 
+        run: cp -a ~/allure-results-firefox/* /allure-results/ 
 
       - name: Get Allure history
         uses: actions/checkout@v2
