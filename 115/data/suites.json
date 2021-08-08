@@ -1,0 +1,134 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Home page spec [EDGE] ",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "da4e369580fd9afb",
+      "parentUid" : "3b243f5f4eebb11250671975c746ba1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628452015564,
+        "stop" : 1628452019199,
+        "duration" : 3635
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Failed test",
+      "uid" : "9ead3e72ebe5f586",
+      "parentUid" : "3b243f5f4eebb11250671975c746ba1a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628452021429,
+        "stop" : 1628452032375,
+        "duration" : 10946
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Skipped test",
+      "uid" : "d90a94b5a34dbf5",
+      "parentUid" : "3b243f5f4eebb11250671975c746ba1a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1628452034495,
+        "stop" : 1628452034499,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3b243f5f4eebb11250671975c746ba1a"
+  }, {
+    "name" : "Home page spec [CHROME] ",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "7736cb2503a93e54",
+      "parentUid" : "d11e985e295e50b67058e265cd847f1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628452017264,
+        "stop" : 1628452021970,
+        "duration" : 4706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Failed test",
+      "uid" : "8dfc46c73aa215d0",
+      "parentUid" : "d11e985e295e50b67058e265cd847f1b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628452024224,
+        "stop" : 1628452035851,
+        "duration" : 11627
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Skipped test",
+      "uid" : "3ffc779b68da8702",
+      "parentUid" : "d11e985e295e50b67058e265cd847f1b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1628452038000,
+        "stop" : 1628452038004,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d11e985e295e50b67058e265cd847f1b"
+  }, {
+    "name" : "Home page spec [FIREFOX] ",
+    "children" : [ {
+      "name" : "Passed test",
+      "uid" : "466524bc94b5baae",
+      "parentUid" : "90af3356ac38442fa2539924bee04809",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628452043251,
+        "stop" : 1628452045755,
+        "duration" : 2504
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Failed test",
+      "uid" : "3f31f69cffb85ae5",
+      "parentUid" : "90af3356ac38442fa2539924bee04809",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628452047825,
+        "stop" : 1628452058858,
+        "duration" : 11033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Skipped test",
+      "uid" : "38c4582522808b35",
+      "parentUid" : "90af3356ac38442fa2539924bee04809",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1628452061022,
+        "stop" : 1628452061024,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "90af3356ac38442fa2539924bee04809"
+  } ],
+  "name" : "suites"
+}
