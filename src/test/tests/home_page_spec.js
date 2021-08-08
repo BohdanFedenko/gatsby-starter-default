@@ -14,7 +14,7 @@ const log = logger.testStep(allureStep);
 const logPreCondition = logger.preConditionStep();
 const logPostCondition = logger.postConditionStep();
 
-describe('Home page spec', () => {
+describe('Home page spec' + browserName, () => {
 
     beforeEach(() => {
         logPreCondition(1, 'Open Home Page');
