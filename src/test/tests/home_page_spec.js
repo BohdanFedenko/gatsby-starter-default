@@ -27,19 +27,19 @@ describe('Home page spec' + browserName, () => {
     })
 
     //Passed test
-    it('Passed test', () => {
+    it('Passed test' + browserName, () => {
         log(1, 'Check Home page title')
         headerSteps.checkTitle(mainProperties.title());
     })
 
     //Failed test
-    it('Failed test', () => {
+    it('Failed test' + browserName, () => {
         log(1, 'Check Home page title')
         headerSteps.checkTitle(mainProperties.wrongTitle());
     })
 
     //Skipped test
-    it.skip('Skipped test', () => {
+    it.skip('Skipped test' + browserName , () => {
         log(1, 'Check Home page title')
         headerSteps.checkTitle(mainProperties.title());
     })
