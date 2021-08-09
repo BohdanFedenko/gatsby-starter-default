@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"skipped","Fri Aug 06 13:40:01 GMT 2021","Fri Aug 06 13:40:01 GMT 2021","1","","Home page spec","","","","Skipped test",""
-"passed","Fri Aug 06 13:39:43 GMT 2021","Fri Aug 06 13:39:46 GMT 2021","3230","","Home page spec","","","","Passed test",""
-"failed","Fri Aug 06 13:39:48 GMT 2021","Fri Aug 06 13:39:59 GMT 2021","10896","","Home page spec","","","","Failed test",""
