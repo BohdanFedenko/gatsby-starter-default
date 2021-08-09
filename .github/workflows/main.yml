@@ -66,39 +66,39 @@ jobs:
           name: cypress-video-chrome
           path: cypress/videos 
           
-  cypress-edge:
-    needs:  merge
-    runs-on: windows-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-        with:
-    # The branch, tag or SHA to checkout. When checking out the repository that
-    # triggered a workflow, this defaults to the reference or SHA for that event.
-    # Otherwise, defaults to `master`.
-            ref: 'Testing'
-      - name: 'NPM Install'
-        run: npm install
-      - name: Run gatsby develop and Cypress Edge
-        run: npm run test:e2e:ci:edge
+#   cypress-edge:
+#     needs:  merge
+#     runs-on: windows-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v2
+#       # Install NPM dependencies, cache them correctly
+#       # and run all Cypress tests
+#         with:
+#     # The branch, tag or SHA to checkout. When checking out the repository that
+#     # triggered a workflow, this defaults to the reference or SHA for that event.
+#     # Otherwise, defaults to `master`.
+#             ref: 'Testing'
+#       - name: 'NPM Install'
+#         run: npm install
+#       - name: Run gatsby develop and Cypress Edge
+#         run: npm run test:e2e:ci:edge
         
-        # Upload artifacts
-      - name: Upload allure-results
-        if: always()
-        continue-on-error: true
-        uses: actions/upload-artifact@v2
-        with:
-          name: allure-results-edge
-          path: allure-results
-      - name: Upload cypress-videos
-        if: always()
-        continue-on-error: true
-        uses: actions/upload-artifact@v2
-        with:
-          name: cypress-video-edge
-          path: cypress/videos 
+#         # Upload artifacts
+#       - name: Upload allure-results
+#         if: always()
+#         continue-on-error: true
+#         uses: actions/upload-artifact@v2
+#         with:
+#           name: allure-results-edge
+#           path: allure-results
+#       - name: Upload cypress-videos
+#         if: always()
+#         continue-on-error: true
+#         uses: actions/upload-artifact@v2
+#         with:
+#           name: cypress-video-edge
+#           path: cypress/videos 
         
   cypress-firefox:
     needs:  merge
