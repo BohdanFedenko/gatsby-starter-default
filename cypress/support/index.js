@@ -20,11 +20,10 @@ import '@shelex/cypress-allure-plugin';
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
-//Categories for separate the test results
 //Set current browser name
-
 global.browserName = ' [' + Cypress.browser.name.toUpperCase() +'] ';
 
+//Categories for separate the test results
 before(function () {
 
     const environmentProperties = {
