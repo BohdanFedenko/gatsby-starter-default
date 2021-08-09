@@ -58,6 +58,13 @@ jobs:
         with:
           name: allure-results-chrome
           path: allure-results
+      - name: Upload cypress-videos
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v2
+        with:
+          name: cypress-video-chrome
+          path: cypress/videos 
           
   cypress-edge:
     needs:  merge
@@ -85,6 +92,13 @@ jobs:
         with:
           name: allure-results-edge
           path: allure-results
+      - name: Upload cypress-videos
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v2
+        with:
+          name: cypress-video-edge
+          path: cypress/videos 
         
   cypress-firefox:
     needs:  merge
@@ -112,6 +126,13 @@ jobs:
         with:
           name: allure-results-firefox
           path: allure-results
+      - name: Upload cypress-videos
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v2
+        with:
+          name: cypress-video-firefox
+          path: cypress/videos
 
 #  Launch separately   
   allure:
