@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Aug 09 09:50:11 GMT 2021","Mon Aug 09 09:50:14 GMT 2021","3607","","Home page spec [CHROME] ","","","","Passed test [CHROME] ",""
+"failed","Mon Aug 09 09:50:22 GMT 2021","Mon Aug 09 09:50:33 GMT 2021","11378","","Home page spec [FIREFOX] ","","","","Failed test [FIREFOX] ",""
+"failed","Mon Aug 09 09:50:16 GMT 2021","Mon Aug 09 09:50:28 GMT 2021","11872","","Home page spec [CHROME] ","","","","Failed test [CHROME] ",""
+"skipped","Mon Aug 09 09:50:36 GMT 2021","Mon Aug 09 09:50:36 GMT 2021","3","","Home page spec [FIREFOX] ","","","","Skipped test [FIREFOX] ",""
+"passed","Mon Aug 09 09:50:17 GMT 2021","Mon Aug 09 09:50:20 GMT 2021","2435","","Home page spec [FIREFOX] ","","","","Passed test [FIREFOX] ",""
+"skipped","Mon Aug 09 09:50:30 GMT 2021","Mon Aug 09 09:50:30 GMT 2021","4","","Home page spec [CHROME] ","","","","Skipped test [CHROME] ",""

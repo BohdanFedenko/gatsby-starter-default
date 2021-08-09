@@ -1,0 +1,61 @@
+[ {
+  "uid" : "68baeb9f48a14315",
+  "name" : "Passed test [CHROME] ",
+  "time" : {
+    "start" : 1628502611111,
+    "stop" : 1628502614718,
+    "duration" : 3607
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fe04d3966982da5",
+  "name" : "Passed test [FIREFOX] ",
+  "time" : {
+    "start" : 1628502617969,
+    "stop" : 1628502620404,
+    "duration" : 2435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43cfb51a2681cbab",
+  "name" : "Failed test [CHROME] ",
+  "time" : {
+    "start" : 1628502616829,
+    "stop" : 1628502628701,
+    "duration" : 11872
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "45e7abfcf41dad5a",
+  "name" : "Failed test [FIREFOX] ",
+  "time" : {
+    "start" : 1628502622550,
+    "stop" : 1628502633928,
+    "duration" : 11378
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8fa9566d6bade10",
+  "name" : "Skipped test [FIREFOX] ",
+  "time" : {
+    "start" : 1628502636145,
+    "stop" : 1628502636148,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c7568ceb3b4e025c",
+  "name" : "Skipped test [CHROME] ",
+  "time" : {
+    "start" : 1628502630838,
+    "stop" : 1628502630842,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

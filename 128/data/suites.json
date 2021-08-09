@@ -1,0 +1,91 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Home page spec [CHROME] ",
+    "children" : [ {
+      "name" : "Passed test [CHROME] ",
+      "uid" : "68baeb9f48a14315",
+      "parentUid" : "d11e985e295e50b67058e265cd847f1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628502611111,
+        "stop" : 1628502614718,
+        "duration" : 3607
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Failed test [CHROME] ",
+      "uid" : "43cfb51a2681cbab",
+      "parentUid" : "d11e985e295e50b67058e265cd847f1b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628502616829,
+        "stop" : 1628502628701,
+        "duration" : 11872
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Skipped test [CHROME] ",
+      "uid" : "c7568ceb3b4e025c",
+      "parentUid" : "d11e985e295e50b67058e265cd847f1b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1628502630838,
+        "stop" : 1628502630842,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d11e985e295e50b67058e265cd847f1b"
+  }, {
+    "name" : "Home page spec [FIREFOX] ",
+    "children" : [ {
+      "name" : "Passed test [FIREFOX] ",
+      "uid" : "7fe04d3966982da5",
+      "parentUid" : "90af3356ac38442fa2539924bee04809",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628502617969,
+        "stop" : 1628502620404,
+        "duration" : 2435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Failed test [FIREFOX] ",
+      "uid" : "45e7abfcf41dad5a",
+      "parentUid" : "90af3356ac38442fa2539924bee04809",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628502622550,
+        "stop" : 1628502633928,
+        "duration" : 11378
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Skipped test [FIREFOX] ",
+      "uid" : "d8fa9566d6bade10",
+      "parentUid" : "90af3356ac38442fa2539924bee04809",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1628502636145,
+        "stop" : 1628502636148,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "90af3356ac38442fa2539924bee04809"
+  } ],
+  "name" : "suites"
+}
