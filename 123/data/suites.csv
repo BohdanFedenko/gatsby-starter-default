@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Mon Aug 09 05:58:16 GMT 2021","Mon Aug 09 05:58:16 GMT 2021","1","","Home page spec [CHROME] ","","","","Skipped test [CHROME] ",""
+"failed","Mon Aug 09 05:58:03 GMT 2021","Mon Aug 09 05:58:14 GMT 2021","10953","","Home page spec [CHROME] ","","","","Failed test [CHROME] ",""
+"passed","Mon Aug 09 05:57:57 GMT 2021","Mon Aug 09 05:58:01 GMT 2021","4396","","Home page spec [CHROME] ","","","","Passed test [CHROME] ",""
+"skipped","Mon Aug 09 05:58:21 GMT 2021","Mon Aug 09 05:58:21 GMT 2021","1","","Home page spec [EDGE] ","","","","Skipped test [EDGE] ",""
+"failed","Mon Aug 09 05:58:08 GMT 2021","Mon Aug 09 05:58:19 GMT 2021","10892","","Home page spec [EDGE] ","","","","Failed test [EDGE] ",""
+"passed","Mon Aug 09 05:58:03 GMT 2021","Mon Aug 09 05:58:06 GMT 2021","3168","","Home page spec [EDGE] ","","","","Passed test [EDGE] ",""
