@@ -1,0 +1,397 @@
+{
+  "uid" : "8eafeb4ac1cd41f7",
+  "name" : "Failed test [EDGE] ",
+  "fullName" : "Failed test [EDGE] ",
+  "historyId" : "b879e3f2cf2566a5ec429b41d12c50f6",
+  "time" : {
+    "start" : 1628659303726,
+    "stop" : 1628659315034,
+    "duration" : 11308
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'\n    at HeaderSteps.checkTitle (http://localhost:8000/__cypress/tests?p=src\\test\\tests\\home_page_spec.js:159:28)\n    at Context.eval (http://localhost:8000/__cypress/tests?p=src\\test\\tests\\home_page_spec.js:216:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "should overwrite previous environment info",
+      "value" : "{\n    \"Browser\": \"edge\",\n    \"Platform\": \"win32\",\n    \"Architecture\": \"x64\",\n    \"Cypress version\": \"8.0.0\"\n}"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+    "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'\n    at HeaderSteps.checkTitle (http://localhost:8000/__cypress/tests?p=src\\test\\tests\\home_page_spec.js:159:28)\n    at Context.eval (http://localhost:8000/__cypress/tests?p=src\\test\\tests\\home_page_spec.js:216:17)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1628659303726,
+        "stop" : 1628659304787,
+        "duration" : 1061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "STEP: 1 - Check Home page title",
+      "time" : {
+        "start" : 1628659304790,
+        "stop" : 1628659315034,
+        "duration" : 10244
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check title",
+      "time" : {
+        "start" : 1628659304791,
+        "stop" : 1628659315034,
+        "duration" : 10243
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "log (\"ADDITIONAL INFO: Check title\")",
+        "time" : {
+          "start" : 1628659304791,
+          "stop" : 1628659304792,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"h1 a\")",
+        "time" : {
+          "start" : 1628659304792,
+          "stop" : 1628659315034,
+          "duration" : 10242
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<a>** to have text **Gatsby Default Starter 2**, but the text was **Gatsby Default Starter** assert",
+        "time" : {
+          "start" : 1628659315032,
+          "stop" : 1628659315032,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/sq/d/3649515864.json",
+        "time" : {
+          "start" : 1628659315033,
+          "stop" : 1628659315033,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/sq/d/63159454.json",
+        "time" : {
+          "start" : 1628659315033,
+          "stop" : 1628659315033,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/page-2/page-data.json",
+        "time" : {
+          "start" : 1628659315033,
+          "stop" : 1628659315033,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/using-typescript/page-data.json",
+        "time" : {
+          "start" : 1628659315033,
+          "stop" : 1628659315033,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1628659315036,
+        "stop" : 1628659317434,
+        "duration" : 2398
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"Postcondition  STEP: 1 - Clear Cookies\")",
+        "time" : {
+          "start" : 1628659315037,
+          "stop" : 1628659315040,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clear Cookies",
+      "time" : {
+        "start" : 1628659315041,
+        "stop" : 1628659317517,
+        "duration" : 2476
+      },
+      "status" : "skipped",
+      "steps" : [ {
+        "name" : "log (\"ADDITIONAL INFO: Clear Cookies\")",
+        "time" : {
+          "start" : 1628659315041,
+          "stop" : 1628659315043,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "clearCookies",
+        "time" : {
+          "start" : 1628659315043,
+          "stop" : 1628659315428,
+          "duration" : 385
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait (\"2000\")",
+        "time" : {
+          "start" : 1628659315428,
+          "stop" : 1628659317433,
+          "duration" : 2005
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "name" : "home_page_spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    }, {
+      "uid" : "53465d4c563bfce0",
+      "name" : "home_page_spec.js:2021-08-11T05:21:54.812Z",
+      "source" : "53465d4c563bfce0.png",
+      "type" : "image/png",
+      "size" : 107817
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home page spec [EDGE] "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "c7c2ec75f765f434",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/129//#testresult/c7c2ec75f765f434",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1628503181851,
+          "stop" : 1628503193030,
+          "duration" : 11179
+        }
+      }, {
+        "uid" : "1109d6510078bf68",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/126//#testresult/1109d6510078bf68",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1628501621207,
+          "stop" : 1628501632204,
+          "duration" : 10997
+        }
+      }, {
+        "uid" : "5c7a667e6ddca947",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/125//#testresult/5c7a667e6ddca947",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1628500817701,
+          "stop" : 1628500828645,
+          "duration" : 10944
+        }
+      }, {
+        "uid" : "8237995df59936f5",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/124//#testresult/8237995df59936f5",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1628489501921,
+          "stop" : 1628489513120,
+          "duration" : 11199
+        }
+      }, {
+        "uid" : "163265fe45be3d00",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/123//#testresult/163265fe45be3d00",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1628488688328,
+          "stop" : 1628488699220,
+          "duration" : 10892
+        }
+      }, {
+        "uid" : "9d2afdeb8a6cf694",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/122//#testresult/9d2afdeb8a6cf694",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1628488068116,
+          "stop" : 1628488078844,
+          "duration" : 10728
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8eafeb4ac1cd41f7.json",
+  "parameterValues" : [ ]
+}

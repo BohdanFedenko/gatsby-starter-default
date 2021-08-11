@@ -1,0 +1,91 @@
+[ {
+  "uid" : "d16ef93e55f8af85",
+  "name" : "Passed test [FIREFOX] ",
+  "time" : {
+    "start" : 1628659265689,
+    "stop" : 1628659267793,
+    "duration" : 2104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11929da0bc473e24",
+  "name" : "Failed test [CHROME] ",
+  "time" : {
+    "start" : 1628659317910,
+    "stop" : 1628659329076,
+    "duration" : 11166
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d139c3779b4b6cc",
+  "name" : "Passed test [CHROME] ",
+  "time" : {
+    "start" : 1628659310071,
+    "stop" : 1628659315737,
+    "duration" : 5666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "461400459566afe2",
+  "name" : "Failed test [FIREFOX] ",
+  "time" : {
+    "start" : 1628659269865,
+    "stop" : 1628659280799,
+    "duration" : 10934
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "86a5cc078de53a4b",
+  "name" : "Skipped test [EDGE] ",
+  "time" : {
+    "start" : 1628659317517,
+    "stop" : 1628659317518,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4f9bba46c81fd2b5",
+  "name" : "Skipped test [CHROME] ",
+  "time" : {
+    "start" : 1628659331302,
+    "stop" : 1628659331306,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8eafeb4ac1cd41f7",
+  "name" : "Failed test [EDGE] ",
+  "time" : {
+    "start" : 1628659303726,
+    "stop" : 1628659315034,
+    "duration" : 11308
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "659d34fd829e8842",
+  "name" : "Passed test [EDGE] ",
+  "time" : {
+    "start" : 1628659297360,
+    "stop" : 1628659301563,
+    "duration" : 4203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93c3b9870ae1c646",
+  "name" : "Skipped test [FIREFOX] ",
+  "time" : {
+    "start" : 1628659282943,
+    "stop" : 1628659282945,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
