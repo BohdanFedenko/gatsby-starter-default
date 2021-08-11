@@ -21,7 +21,7 @@ import '@shelex/cypress-allure-plugin';
 // require('./commands')
 
 //Set current browser name
-global.browserName = ' [' + Cypress.browser.name.toUpperCase() +'] ';
+global.browserPlusPlatformNames = ' [' + Cypress.browser.name.toUpperCase() +' - ' + Cypress.platform +'] ';
 
 //Categories for separate the test results
 before(function () {

@@ -14,7 +14,7 @@ const log = logger.testStep(allureStep);
 const logPreCondition = logger.preConditionStep();
 const logPostCondition = logger.postConditionStep();
 
-describe('Home page spec' + browserName, () => {
+describe('Home page spec' + browserPlusPlatformNames, () => {
 
     beforeEach(() => {
         logPreCondition(1, 'Open Home Page');
@@ -27,19 +27,19 @@ describe('Home page spec' + browserName, () => {
     })
 
     //Passed test
-    it('Passed test' + browserName, () => {
+    it('Passed test' + browserPlusPlatformNames, () => {
         log(1, 'Check Home page title')
         headerSteps.checkTitle(mainProperties.title());
     })
 
     //Failed test
-    it('Failed test' + browserName, () => {
+    it('Failed test' + browserPlusPlatformNames, () => {
         log(1, 'Check Home page title')
         headerSteps.checkTitle(mainProperties.wrongTitle());
     })
 
     //Skipped test
-    it.skip('Skipped test' + browserName , () => {
+    it.skip('Skipped test' + browserPlusPlatformNames , () => {
         log(1, 'Check Home page title')
         headerSteps.checkTitle(mainProperties.title());
     })
