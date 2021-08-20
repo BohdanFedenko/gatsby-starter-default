@@ -169,66 +169,67 @@ jobs:
           
 
 #  Launch separately  (all test results in one branch) 
-#   allure:
-#     if: always()
-#     needs: [cypress-chrome, cypress-edge, cypress-firefox, cypress-chrome-macOs]
-#     name: Generate Allure Report
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Download allure-results
-#         uses: actions/download-artifact@v2
-#         with:
-# #            name: allure-results-chrome
-#           path: allure-results
-# #       - uses: actions/checkout@v2
-#       - name: copy file chrome
-#         if: always()
-#         continue-on-error: true
-#         shell: bash
-#         run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-chrome/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/ 
-#       - name: copy file edge
-#         if: always()
-#         continue-on-error: true
-#         shell: bash
-#         run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-edge/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/
-#       - name: copy file firefox
-#         if: always()
-#         continue-on-error: true
-#         shell: bash
-#         run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-firefox/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/
-#       - name: copy file chrome-macOs
-#         if: always()
-#         continue-on-error: true
-#         shell: bash
-#         run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-chrome-macOs/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/
+  allure:
+    if: always()
+    needs: [cypress-chrome, cypress-edge, cypress-firefox, cypress-chrome-macOs]
+    name: Generate Allure Report
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download allure-results
+        uses: actions/download-artifact@v2
+        with:
+#            name: allure-results-chrome
+          path: allure-results
+#       - uses: actions/checkout@v2
+      - name: copy file chrome
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-chrome/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/ 
+      - name: copy file edge
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-edge/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/
+      - name: copy file firefox
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-firefox/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/
+      - name: copy file chrome-macOs
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-chrome-macOs/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/
 
-#       - name: Get Allure history
-#         uses: actions/checkout@v2
-#         if: always()
-#         continue-on-error: true
-#         with:
-#           ref: gh-pages
-#           path: gh-pages
-#       - name: Allure Report action from marketplace
-#         uses: simple-elf/allure-report-action@master
-#         if: always()
-#         #id: allure-report
-#         with:
-#           allure_results: allure-results
-#           #gh_pages: gh-pages
-#           #allure_report: allure-report
-#           allure_history: allure-history
-#           keep_reports: 20
-#       - name: Display structure of downloaded files
-#         run: ls -R
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        #id: allure-report
+        with:
+          allure_results: allure-results
+          #gh_pages: gh-pages
+          #allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
+      - name: Display structure of downloaded files
+        run: ls -R
 
-#       - name: Deploy report to Github Pages
-#         if: always()
-#         uses: peaceiris/actions-gh-pages@v2
-#         env:
-#           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#           PUBLISH_BRANCH: gh-pages
-#           PUBLISH_DIR: allure-history
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
+
   allure-crome:
     if: always()
     needs: [cypress-chrome]
@@ -265,10 +266,141 @@ jobs:
           keep_reports: 20
       - name: Display structure of downloaded files
         run: ls -R
-      - name: Deploy report to Github Pages
+          - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: chrome-pages
+          PUBLISH_DIR: allure-history
+    allure-firefox:
+    if: always()
+    needs: [cypress-firefox]
+    name: Generate Allure Report
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download allure-results
+        uses: actions/download-artifact@v2
+        with:
+#            name: allure-results-chrome
+          path: allure-results
+#       - uses: actions/checkout@v2
+      - name: copy file firefox
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-firefox/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/ 
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: firefox-pages
+          path: firefox-pages
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        #id: allure-report
+        with:
+          allure_results: allure-results
+          #gh_pages: gh-pages
+          #allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
+      - name: Display structure of downloaded files
+        run: ls -R
+          - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: firefox-pages
+          PUBLISH_DIR: allure-history
+    allure-edge:
+    if: always()
+    needs: [cypress-edge]
+    name: Generate Allure Report
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download allure-results
+        uses: actions/download-artifact@v2
+        with:
+#            name: allure-results-chrome
+          path: allure-results
+#       - uses: actions/checkout@v2
+      - name: copy file edge
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-edge/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/ 
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: edge-pages
+          path: edge-pages
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        #id: allure-report
+        with:
+          allure_results: allure-results
+          #gh_pages: gh-pages
+          #allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
+      - name: Display structure of downloaded files
+        run: ls -R
+          - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: edge-pages
+          PUBLISH_DIR: allure-history
+    allure-macOS-chrome:
+    if: always()
+    needs: [cypress-chrome-macOs]
+    name: Generate Allure Report
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download allure-results
+        uses: actions/download-artifact@v2
+        with:
+#            name: allure-results-chrome
+          path: allure-results
+#       - uses: actions/checkout@v2
+      - name: copy file chrome-macOs
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: cp -a ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/allure-results-chrome-macOs/* ~/work/gatsby-starter-default/gatsby-starter-default/allure-results/
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: macOS-chrome-pages
+          path: macOS-chrome-pages
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        #id: allure-report
+        with:
+          allure_results: allure-results
+          #gh_pages: gh-pages
+          #allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
+      - name: Display structure of downloaded files
+        run: ls -R
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: macOS-chrome-pages
           PUBLISH_DIR: allure-history
