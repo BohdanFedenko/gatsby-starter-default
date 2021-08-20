@@ -1,0 +1,64 @@
+{
+  "e45b188dd4647d0d693deade8ee82dc9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1be11ac17d998d11",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/134//#testresult/1be11ac17d998d11",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1629441648497,
+        "stop" : 1629441648500,
+        "duration" : 3
+      }
+    } ]
+  },
+  "438d5e17f082a8e0d97a87d7ff06fe25" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fcbcc132003722fb",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/134//#testresult/fcbcc132003722fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629441631122,
+        "stop" : 1629441633414,
+        "duration" : 2292
+      }
+    } ]
+  },
+  "a4649b22c55d163fa6c6c3b0e390b53d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3268c7962dc2ad52",
+      "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/134//#testresult/3268c7962dc2ad52",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+      "time" : {
+        "start" : 1629441635485,
+        "stop" : 1629441646354,
+        "duration" : 10869
+      }
+    } ]
+  }
+}
