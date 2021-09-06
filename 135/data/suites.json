@@ -1,0 +1,177 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Home page spec [CHROME - darwin] ",
+    "children" : [ {
+      "name" : "Passed test [CHROME - darwin] ",
+      "uid" : "487bac8254c09f21",
+      "parentUid" : "98ee53a9bdbe37bb1c7f236fc2320904",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630912426489,
+        "stop" : 1630912429525,
+        "duration" : 3036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Failed test [CHROME - darwin] ",
+      "uid" : "10a1297eb0d45308",
+      "parentUid" : "98ee53a9bdbe37bb1c7f236fc2320904",
+      "status" : "failed",
+      "time" : {
+        "start" : 1630912431782,
+        "stop" : 1630912442845,
+        "duration" : 11063
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Skipped test [CHROME - darwin] ",
+      "uid" : "9c2ccf84d040865a",
+      "parentUid" : "98ee53a9bdbe37bb1c7f236fc2320904",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1630912444995,
+        "stop" : 1630912444997,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "98ee53a9bdbe37bb1c7f236fc2320904"
+  }, {
+    "name" : "Home page spec [CHROME - win32] ",
+    "children" : [ {
+      "name" : "Passed test [CHROME - win32] ",
+      "uid" : "b187b957aeb7f917",
+      "parentUid" : "bbbd5656973f3019486cc9ecfff66617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630912520303,
+        "stop" : 1630912523831,
+        "duration" : 3528
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Failed test [CHROME - win32] ",
+      "uid" : "e48f3d401f900b21",
+      "parentUid" : "bbbd5656973f3019486cc9ecfff66617",
+      "status" : "failed",
+      "time" : {
+        "start" : 1630912525945,
+        "stop" : 1630912537157,
+        "duration" : 11212
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Skipped test [CHROME - win32] ",
+      "uid" : "bb82a056dc889f0f",
+      "parentUid" : "bbbd5656973f3019486cc9ecfff66617",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1630912539269,
+        "stop" : 1630912539270,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bbbd5656973f3019486cc9ecfff66617"
+  }, {
+    "name" : "Home page spec [EDGE - win32] ",
+    "children" : [ {
+      "name" : "Passed test [EDGE - win32] ",
+      "uid" : "72911be5d6c35620",
+      "parentUid" : "8cbe64ecbb6067834de1221eb7e8ba87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630912525533,
+        "stop" : 1630912530732,
+        "duration" : 5199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Failed test [EDGE - win32] ",
+      "uid" : "f81bc3753173b304",
+      "parentUid" : "8cbe64ecbb6067834de1221eb7e8ba87",
+      "status" : "failed",
+      "time" : {
+        "start" : 1630912533734,
+        "stop" : 1630912545496,
+        "duration" : 11762
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Skipped test [EDGE - win32] ",
+      "uid" : "387ee6f7b81dd679",
+      "parentUid" : "8cbe64ecbb6067834de1221eb7e8ba87",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1630912547600,
+        "stop" : 1630912547602,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8cbe64ecbb6067834de1221eb7e8ba87"
+  }, {
+    "name" : "Home page spec [FIREFOX - win32] ",
+    "children" : [ {
+      "name" : "Passed test [FIREFOX - win32] ",
+      "uid" : "9085158ab80ea880",
+      "parentUid" : "1a1bd139adeb34f217adb3e3f495ca29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630912528390,
+        "stop" : 1630912531290,
+        "duration" : 2900
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Failed test [FIREFOX - win32] ",
+      "uid" : "a92fa537d105fd97",
+      "parentUid" : "1a1bd139adeb34f217adb3e3f495ca29",
+      "status" : "failed",
+      "time" : {
+        "start" : 1630912533382,
+        "stop" : 1630912544181,
+        "duration" : 10799
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Skipped test [FIREFOX - win32] ",
+      "uid" : "476b022c4908d8ec",
+      "parentUid" : "1a1bd139adeb34f217adb3e3f495ca29",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1630912546370,
+        "stop" : 1630912546374,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1a1bd139adeb34f217adb3e3f495ca29"
+  } ],
+  "name" : "suites"
+}
