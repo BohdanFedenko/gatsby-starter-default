@@ -1,0 +1,44 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Passed test [EDGE - win32] ",
+    "uid" : "5dd255a71a4da1bf",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631263877573,
+      "stop" : 1631263880585,
+      "duration" : 3012
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failed test [EDGE - win32] ",
+    "uid" : "b9f5e8919f4ac335",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "failed",
+    "time" : {
+      "start" : 1631263882709,
+      "stop" : 1631263893525,
+      "duration" : 10816
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Skipped test [EDGE - win32] ",
+    "uid" : "ee184f0813c65371",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1631263895616,
+      "stop" : 1631263895617,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "packages"
+}
