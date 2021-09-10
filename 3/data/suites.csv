@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Sep 10 07:52:43 GMT 2021","Fri Sep 10 07:52:55 GMT 2021","11289","","Home page spec [CHROME - win32] ","","","","Failed test [CHROME - win32] ",""
+"skipped","Fri Sep 10 07:52:57 GMT 2021","Fri Sep 10 07:52:57 GMT 2021","1","","Home page spec [CHROME - win32] ","","","","Skipped test [CHROME - win32] ",""
+"passed","Fri Sep 10 07:52:38 GMT 2021","Fri Sep 10 07:52:41 GMT 2021","3525","","Home page spec [CHROME - win32] ","","","","Passed test [CHROME - win32] ",""
