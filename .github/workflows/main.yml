@@ -1,11 +1,13 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Test 
+name: Push-PR-trigger-run 
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
+    paths-ignore:
+      - '.github/workflows/**'
     branches: [ master ]
   pull_request:
     branches: [ master ] 
