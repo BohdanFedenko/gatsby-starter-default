@@ -1,0 +1,67 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "OK",
+    "children" : [ {
+      "children" : [ {
+        "name" : "Passed test [CHROME - darwin] ",
+        "uid" : "66e125e3d5080857",
+        "parentUid" : "40956da604857757bf8548d3aba677cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631255390867,
+          "stop" : 1631255393389,
+          "duration" : 2522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40956da604857757bf8548d3aba677cf"
+    } ],
+    "uid" : "f47c5cd391a37a36ef418a80c5c5c6fa"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+      "children" : [ {
+        "name" : "Failed test [CHROME - darwin] ",
+        "uid" : "90f7c70107be98c7",
+        "parentUid" : "343818d8f549b3bb06670d7fa51095f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631255395514,
+          "stop" : 1631255406502,
+          "duration" : 10988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "343818d8f549b3bb06670d7fa51095f6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Ignored tests",
+    "children" : [ {
+      "name" : "Test ignored",
+      "children" : [ {
+        "name" : "Skipped test [CHROME - darwin] ",
+        "uid" : "1f5313bebec522fa",
+        "parentUid" : "07892ecb169c973266143e2d0cc5753a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1631255408577,
+          "stop" : 1631255408578,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07892ecb169c973266143e2d0cc5753a"
+    } ],
+    "uid" : "de462066317a26259da5dbde82325643"
+  } ],
+  "name" : "categories"
+}
