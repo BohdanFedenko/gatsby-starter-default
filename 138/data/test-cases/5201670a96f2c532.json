@@ -1,0 +1,139 @@
+{
+  "uid" : "5201670a96f2c532",
+  "name" : "Skipped test [CHROME - darwin] ",
+  "fullName" : "Skipped test [CHROME - darwin] ",
+  "historyId" : "41774357531678bafe63a28f245e18cf",
+  "time" : {
+    "start" : 1631255408577,
+    "stop" : 1631255408578,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "should overwrite previous environment info",
+      "value" : "{\n    \"Browser\": \"chrome\",\n    \"Platform\": \"darwin\",\n    \"Architecture\": \"x64\",\n    \"Cypress version\": \"8.0.0\"\n}"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Test ignored",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "home_page_spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home page spec [CHROME - darwin] "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 6,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "337ce29ff7e72e94",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/137//#testresult/337ce29ff7e72e94",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631254975676,
+          "stop" : 1631254975677,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "8836c0114b73ff25",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/136//#testresult/8836c0114b73ff25",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631254581459,
+          "stop" : 1631254581460,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9c2ccf84d040865a",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/135//#testresult/9c2ccf84d040865a",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1630912444995,
+          "stop" : 1630912444997,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "df2c1c9c729a2b8a",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/134//#testresult/df2c1c9c729a2b8a",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1629441519098,
+          "stop" : 1629441519099,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cffa27375ce3d7cc",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/131//#testresult/cffa27375ce3d7cc",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1628660160724,
+          "stop" : 1628660160725,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5201670a96f2c532.json",
+  "parameterValues" : [ ]
+}
