@@ -1,0 +1,249 @@
+{
+  "uid" : "612835f89fb4ecd6",
+  "name" : "Skipped test [EDGE - win32] ",
+  "fullName" : "Skipped test [EDGE - win32] ",
+  "historyId" : "3e8231a48efb75a162088c84a9e23eb1",
+  "time" : {
+    "start" : 1631654382891,
+    "stop" : 1631654382892,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "should overwrite previous environment info",
+      "value" : "{\n    \"Browser\": \"edge\",\n    \"Platform\": \"win32\",\n    \"Architecture\": \"x64\",\n    \"Cypress version\": \"8.0.0\"\n}"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Test ignored",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "home_page_spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home page spec [EDGE - win32] "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 17,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "21ed591260a19973",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/7//#testresult/21ed591260a19973",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631567971057,
+          "stop" : 1631567971059,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "f9a5eb94f425eb3e",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/6//#testresult/f9a5eb94f425eb3e",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631481510297,
+          "stop" : 1631481510298,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "53dfc6f944ed04ed",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/5//#testresult/53dfc6f944ed04ed",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631395163520,
+          "stop" : 1631395163521,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "8ac8ec0198906774",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/4//#testresult/8ac8ec0198906774",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631308771677,
+          "stop" : 1631308771679,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "479facb0a0656ee0",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/2//#testresult/479facb0a0656ee0",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631266744720,
+          "stop" : 1631266744722,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "d69a4e66e62fb1fc",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/140//#testresult/d69a4e66e62fb1fc",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631263895616,
+          "stop" : 1631263895617,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e3e03c96558a951d",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/3//#testresult/e3e03c96558a951d",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631260351581,
+          "stop" : 1631260351582,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6e51f54fffdbf159",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/2//#testresult/6e51f54fffdbf159",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631259868218,
+          "stop" : 1631259868219,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5f168bbe9cd29736",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/1//#testresult/5f168bbe9cd29736",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631259324986,
+          "stop" : 1631259324991,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "6a96c3f493c5fcab",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/139//#testresult/6a96c3f493c5fcab",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631255528496,
+          "stop" : 1631255528497,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4ec3edeae6ff967",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/138//#testresult/4ec3edeae6ff967",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631255532216,
+          "stop" : 1631255532217,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f27bc1d91cad736",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/137//#testresult/f27bc1d91cad736",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631255136497,
+          "stop" : 1631255136498,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ff9602538d6614e2",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/136//#testresult/ff9602538d6614e2",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1631254732496,
+          "stop" : 1631254732498,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "387ee6f7b81dd679",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/135//#testresult/387ee6f7b81dd679",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1630912547600,
+          "stop" : 1630912547602,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "1e3bca76e3b0fa11",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/134//#testresult/1e3bca76e3b0fa11",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1629441650141,
+          "stop" : 1629441650143,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "42ddab7eb57de6d9",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/131//#testresult/42ddab7eb57de6d9",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1628660275473,
+          "stop" : 1628660275475,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "612835f89fb4ecd6.json",
+  "parameterValues" : [ ]
+}
