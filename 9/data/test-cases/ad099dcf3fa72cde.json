@@ -1,0 +1,326 @@
+{
+  "uid" : "ad099dcf3fa72cde",
+  "name" : "Failed test [CHROME - darwin] ",
+  "fullName" : "Failed test [CHROME - darwin] ",
+  "historyId" : "cfbcbf8bd9cfcc96f3fdcf2aaf999719",
+  "time" : {
+    "start" : 1631740666339,
+    "stop" : 1631740677426,
+    "duration" : 11087
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'\n    at HeaderSteps.checkTitle (http://localhost:8000/__cypress/tests?p=src/test/tests/home_page_spec.js:204:28)\n    at Context.eval (http://localhost:8000/__cypress/tests?p=src/test/tests/home_page_spec.js:261:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "should overwrite previous environment info",
+      "value" : "{\n    \"Browser\": \"chrome\",\n    \"Platform\": \"darwin\",\n    \"Architecture\": \"x64\",\n    \"Cypress version\": \"8.0.0\"\n}"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+    "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'\n    at HeaderSteps.checkTitle (http://localhost:8000/__cypress/tests?p=src/test/tests/home_page_spec.js:204:28)\n    at Context.eval (http://localhost:8000/__cypress/tests?p=src/test/tests/home_page_spec.js:261:17)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1631740666340,
+        "stop" : 1631740667024,
+        "duration" : 684
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "STEP: 1 - Check Home page title",
+      "time" : {
+        "start" : 1631740667029,
+        "stop" : 1631740677426,
+        "duration" : 10397
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check title",
+      "time" : {
+        "start" : 1631740667030,
+        "stop" : 1631740677426,
+        "duration" : 10396
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "log (\"ADDITIONAL INFO: Check title\")",
+        "time" : {
+          "start" : 1631740667031,
+          "stop" : 1631740667032,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"h1 a\")",
+        "time" : {
+          "start" : 1631740667032,
+          "stop" : 1631740677426,
+          "duration" : 10394
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<a>** to have text **Gatsby Default Starter 2**, but the text was **Gatsby Default Starter** assert",
+        "time" : {
+          "start" : 1631740677420,
+          "stop" : 1631740677420,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/sq/d/3649515864.json",
+        "time" : {
+          "start" : 1631740677421,
+          "stop" : 1631740677421,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/sq/d/63159454.json",
+        "time" : {
+          "start" : 1631740677421,
+          "stop" : 1631740677421,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/using-typescript/page-data.json",
+        "time" : {
+          "start" : 1631740677425,
+          "stop" : 1631740677425,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/page-2/page-data.json",
+        "time" : {
+          "start" : 1631740677425,
+          "stop" : 1631740677425,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1631740677428,
+        "stop" : 1631740679474,
+        "duration" : 2046
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"Postcondition  STEP: 1 - Clear Cookies\")",
+        "time" : {
+          "start" : 1631740677430,
+          "stop" : 1631740677434,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clear Cookies",
+      "time" : {
+        "start" : 1631740677435,
+        "stop" : 1631740679548,
+        "duration" : 2113
+      },
+      "status" : "skipped",
+      "steps" : [ {
+        "name" : "log (\"ADDITIONAL INFO: Clear Cookies\")",
+        "time" : {
+          "start" : 1631740677435,
+          "stop" : 1631740677438,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "clearCookies",
+        "time" : {
+          "start" : 1631740677438,
+          "stop" : 1631740677445,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait (\"2000\")",
+        "time" : {
+          "start" : 1631740677445,
+          "stop" : 1631740679474,
+          "duration" : 2029
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "name" : "home_page_spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    }, {
+      "uid" : "48cfc79cc450e32c",
+      "name" : "home_page_spec.js:2021-09-15T21:17:57.062Z",
+      "source" : "48cfc79cc450e32c.png",
+      "type" : "image/png",
+      "size" : 148682
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home page spec [CHROME - darwin] "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ad099dcf3fa72cde.json",
+  "parameterValues" : [ ]
+}
