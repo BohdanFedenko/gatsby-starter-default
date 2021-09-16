@@ -1,8 +1,6 @@
 [ {
-  "buildOrder" : 9,
-  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/9/",
+  "buildOrder" : 10,
+  "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/10/",
   "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 17640
-  }
+  "data" : { }
 } ]
