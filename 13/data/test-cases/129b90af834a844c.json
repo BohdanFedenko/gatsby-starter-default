@@ -1,0 +1,777 @@
+{
+  "uid" : "129b90af834a844c",
+  "name" : "Passed test [EDGE - win32] ",
+  "fullName" : "Passed test [EDGE - win32] ",
+  "historyId" : "fc89394ae55a27e5f4fafb55c2e11748",
+  "time" : {
+    "start" : 1632086334709,
+    "stop" : 1632086338671,
+    "duration" : 3962
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "should overwrite previous environment info",
+      "value" : "{\n    \"Browser\": \"edge\",\n    \"Platform\": \"win32\",\n    \"Architecture\": \"x64\",\n    \"Cypress version\": \"8.0.0\"\n}"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1632086334711,
+        "stop" : 1632086337639,
+        "duration" : 2928
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"Precondition STEP: 1 - Open Home Page\")",
+        "time" : {
+          "start" : 1632086334712,
+          "stop" : 1632086334716,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Open Home page",
+        "time" : {
+          "start" : 1632086334717,
+          "stop" : 1632086338669,
+          "duration" : 3952
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "log (\"ADDITIONAL INFO: Open Home page\")",
+          "time" : {
+            "start" : 1632086334718,
+            "stop" : 1632086334719,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "visit (\"/\")",
+          "time" : {
+            "start" : 1632086334719,
+            "stop" : 1632086337638,
+            "duration" : 2919
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/app-data.json",
+          "time" : {
+            "start" : 1632086337637,
+            "stop" : 1632086337637,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/dev-404-page/page-data.json",
+          "time" : {
+            "start" : 1632086337638,
+            "stop" : 1632086337638,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/404.html/page-data.json",
+          "time" : {
+            "start" : 1632086337638,
+            "stop" : 1632086337638,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/index/page-data.json",
+          "time" : {
+            "start" : 1632086337638,
+            "stop" : 1632086337638,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "log (\"STEP: 1 - Check Home page title\")",
+          "time" : {
+            "start" : 1632086337641,
+            "stop" : 1632086337645,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "STEP: 1 - Check Home page title",
+      "time" : {
+        "start" : 1632086337646,
+        "stop" : 1632086338669,
+        "duration" : 1023
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check title",
+      "time" : {
+        "start" : 1632086337647,
+        "stop" : 1632086338669,
+        "duration" : 1022
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"ADDITIONAL INFO: Check title\")",
+        "time" : {
+          "start" : 1632086337647,
+          "stop" : 1632086337651,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"h1 a\")",
+        "time" : {
+          "start" : 1632086337651,
+          "stop" : 1632086338667,
+          "duration" : 1016
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<a>** to have text **Gatsby Default Starter** assert",
+        "time" : {
+          "start" : 1632086338667,
+          "stop" : 1632086338667,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/sq/d/3649515864.json",
+        "time" : {
+          "start" : 1632086338667,
+          "stop" : 1632086338667,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/sq/d/63159454.json",
+        "time" : {
+          "start" : 1632086338667,
+          "stop" : 1632086338667,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1632086338680,
+        "stop" : 1632086340861,
+        "duration" : 2181
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"Postcondition  STEP: 1 - Clear Cookies\")",
+        "time" : {
+          "start" : 1632086338681,
+          "stop" : 1632086338685,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clear Cookies",
+      "time" : {
+        "start" : 1632086338685,
+        "stop" : 1632086352091,
+        "duration" : 13406
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"ADDITIONAL INFO: Clear Cookies\")",
+        "time" : {
+          "start" : 1632086338686,
+          "stop" : 1632086338690,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "clearCookies",
+        "time" : {
+          "start" : 1632086338690,
+          "stop" : 1632086338854,
+          "duration" : 164
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/using-typescript/page-data.json",
+        "time" : {
+          "start" : 1632086338854,
+          "stop" : 1632086338854,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait (\"2000\")",
+        "time" : {
+          "start" : 1632086338854,
+          "stop" : 1632086340860,
+          "duration" : 2006
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/page-2/page-data.json",
+        "time" : {
+          "start" : 1632086340860,
+          "stop" : 1632086340860,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log (\"Precondition STEP: 1 - Open Home Page\")",
+        "time" : {
+          "start" : 1632086340952,
+          "stop" : 1632086340954,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Open Home page",
+        "time" : {
+          "start" : 1632086340955,
+          "stop" : 1632086352091,
+          "duration" : 11136
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "log (\"ADDITIONAL INFO: Open Home page\")",
+          "time" : {
+            "start" : 1632086340955,
+            "stop" : 1632086340956,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "visit (\"/\")",
+          "time" : {
+            "start" : 1632086340956,
+            "stop" : 1632086341649,
+            "duration" : 693
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/app-data.json",
+          "time" : {
+            "start" : 1632086341648,
+            "stop" : 1632086341648,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/dev-404-page/page-data.json",
+          "time" : {
+            "start" : 1632086341649,
+            "stop" : 1632086341649,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/404.html/page-data.json",
+          "time" : {
+            "start" : 1632086341649,
+            "stop" : 1632086341649,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/index/page-data.json",
+          "time" : {
+            "start" : 1632086341649,
+            "stop" : 1632086341649,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "log (\"STEP: 1 - Check Home page title\")",
+          "time" : {
+            "start" : 1632086341651,
+            "stop" : 1632086341652,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 14,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "name" : "home_page_spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 34,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home page spec [EDGE - win32] "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "OK",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 22,
+        "unknown" : 0,
+        "total" : 22
+      },
+      "items" : [ {
+        "uid" : "1d3b38ed21a748df",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/12//#testresult/1d3b38ed21a748df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631999928821,
+          "stop" : 1631999932786,
+          "duration" : 3965
+        }
+      }, {
+        "uid" : "dc6093312c94b7d9",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/11//#testresult/dc6093312c94b7d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631913535029,
+          "stop" : 1631913539701,
+          "duration" : 4672
+        }
+      }, {
+        "uid" : "a1b06e78ccca4a97",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/10//#testresult/a1b06e78ccca4a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631827117827,
+          "stop" : 1631827121148,
+          "duration" : 3321
+        }
+      }, {
+        "uid" : "b8757064f89ca0ff",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/9//#testresult/b8757064f89ca0ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631740742443,
+          "stop" : 1631740745726,
+          "duration" : 3283
+        }
+      }, {
+        "uid" : "e3879ed862746d78",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/8//#testresult/e3879ed862746d78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631654363910,
+          "stop" : 1631654367185,
+          "duration" : 3275
+        }
+      }, {
+        "uid" : "7dd1374419860a8d",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/7//#testresult/7dd1374419860a8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631567951416,
+          "stop" : 1631567955659,
+          "duration" : 4243
+        }
+      }, {
+        "uid" : "9a10192f93cf1623",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/6//#testresult/9a10192f93cf1623",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631481492441,
+          "stop" : 1631481495199,
+          "duration" : 2758
+        }
+      }, {
+        "uid" : "657efdfb4d5ef2c7",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/5//#testresult/657efdfb4d5ef2c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631395143759,
+          "stop" : 1631395148054,
+          "duration" : 4295
+        }
+      }, {
+        "uid" : "2f66e786b1b90232",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/4//#testresult/2f66e786b1b90232",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631308751897,
+          "stop" : 1631308756199,
+          "duration" : 4302
+        }
+      }, {
+        "uid" : "992d94e00c674015",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/2//#testresult/992d94e00c674015",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631266725666,
+          "stop" : 1631266729273,
+          "duration" : 3607
+        }
+      }, {
+        "uid" : "fe25a8e6131abbdb",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/140//#testresult/fe25a8e6131abbdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631263877573,
+          "stop" : 1631263880585,
+          "duration" : 3012
+        }
+      }, {
+        "uid" : "c4a4d5e196e97625",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/3//#testresult/c4a4d5e196e97625",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631260333082,
+          "stop" : 1631260336303,
+          "duration" : 3221
+        }
+      }, {
+        "uid" : "e95a379d4b4c0f5f",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/2//#testresult/e95a379d4b4c0f5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631259849076,
+          "stop" : 1631259852837,
+          "duration" : 3761
+        }
+      }, {
+        "uid" : "9ce632dd7e753fa2",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/1//#testresult/9ce632dd7e753fa2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631259306099,
+          "stop" : 1631259309648,
+          "duration" : 3549
+        }
+      }, {
+        "uid" : "ec09dd79603964cb",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/139//#testresult/ec09dd79603964cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631255508886,
+          "stop" : 1631255512844,
+          "duration" : 3958
+        }
+      }, {
+        "uid" : "6d2839316ea1b477",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/138//#testresult/6d2839316ea1b477",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631255513388,
+          "stop" : 1631255516728,
+          "duration" : 3340
+        }
+      }, {
+        "uid" : "4e4332b115aa213c",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/137//#testresult/4e4332b115aa213c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631255116949,
+          "stop" : 1631255121234,
+          "duration" : 4285
+        }
+      }, {
+        "uid" : "e17c19125f5020db",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/136//#testresult/e17c19125f5020db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631254712125,
+          "stop" : 1631254716860,
+          "duration" : 4735
+        }
+      }, {
+        "uid" : "72911be5d6c35620",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/135//#testresult/72911be5d6c35620",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630912525533,
+          "stop" : 1630912530732,
+          "duration" : 5199
+        }
+      }, {
+        "uid" : "6afcde492d3d5758",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/134//#testresult/6afcde492d3d5758",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629441631557,
+          "stop" : 1629441635059,
+          "duration" : 3502
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "129b90af834a844c.json",
+  "parameterValues" : [ ]
+}

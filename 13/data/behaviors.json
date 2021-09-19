@@ -1,0 +1,161 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Passed test [CHROME - darwin] ",
+    "uid" : "ef02dcf05e4f5b18",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632086231731,
+      "stop" : 1632086233894,
+      "duration" : 2163
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failed test [CHROME - darwin] ",
+    "uid" : "4e50f10bede09b75",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1632086235985,
+      "stop" : 1632086246752,
+      "duration" : 10767
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Skipped test [CHROME - darwin] ",
+    "uid" : "fa444e2625ced0b7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1632086248844,
+      "stop" : 1632086248845,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Passed test [CHROME - win32] ",
+    "uid" : "f4d44512efbd49ee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632086321740,
+      "stop" : 1632086326404,
+      "duration" : 4664
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failed test [CHROME - win32] ",
+    "uid" : "5e0b36668c998002",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1632086328662,
+      "stop" : 1632086339947,
+      "duration" : 11285
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Passed test [EDGE - win32] ",
+    "uid" : "129b90af834a844c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632086334709,
+      "stop" : 1632086338671,
+      "duration" : 3962
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failed test [EDGE - win32] ",
+    "uid" : "59dcd4497edfd826",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1632086340883,
+      "stop" : 1632086352092,
+      "duration" : 11209
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Skipped test [CHROME - win32] ",
+    "uid" : "321bc8f019771e4b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1632086342068,
+      "stop" : 1632086342069,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Skipped test [EDGE - win32] ",
+    "uid" : "2d152b0ecb7f9e51",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1632086354208,
+      "stop" : 1632086354210,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Passed test [FIREFOX - win32] ",
+    "uid" : "54b3be7cdb1e7145",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632086413253,
+      "stop" : 1632086416048,
+      "duration" : 2795
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failed test [FIREFOX - win32] ",
+    "uid" : "4da89cb6384dfe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1632086418213,
+      "stop" : 1632086429334,
+      "duration" : 11121
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Skipped test [FIREFOX - win32] ",
+    "uid" : "723a8a22b7d00eac",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1632086431552,
+      "stop" : 1632086431556,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
