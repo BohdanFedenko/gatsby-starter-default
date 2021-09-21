@@ -1,0 +1,586 @@
+{
+  "uid" : "ff6a077194e6f43a",
+  "name" : "Passed test [CHROME - win32] ",
+  "fullName" : "Passed test [CHROME - win32] ",
+  "historyId" : "09e97775fe15018225bbfdfcd9a11a69",
+  "time" : {
+    "start" : 1632259217320,
+    "stop" : 1632259220971,
+    "duration" : 3651
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "should overwrite previous environment info",
+      "value" : "{\n    \"Browser\": \"chrome\",\n    \"Platform\": \"win32\",\n    \"Architecture\": \"x64\",\n    \"Cypress version\": \"8.0.0\"\n}"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1632259217322,
+        "stop" : 1632259219559,
+        "duration" : 2237
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"Precondition STEP: 1 - Open Home Page\")",
+        "time" : {
+          "start" : 1632259217323,
+          "stop" : 1632259217327,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Open Home page",
+        "time" : {
+          "start" : 1632259217327,
+          "stop" : 1632259220970,
+          "duration" : 3643
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "log (\"ADDITIONAL INFO: Open Home page\")",
+          "time" : {
+            "start" : 1632259217328,
+            "stop" : 1632259217329,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "visit (\"/\")",
+          "time" : {
+            "start" : 1632259217329,
+            "stop" : 1632259219559,
+            "duration" : 2230
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/app-data.json",
+          "time" : {
+            "start" : 1632259219558,
+            "stop" : 1632259219558,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/dev-404-page/page-data.json",
+          "time" : {
+            "start" : 1632259219558,
+            "stop" : 1632259219558,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/404.html/page-data.json",
+          "time" : {
+            "start" : 1632259219558,
+            "stop" : 1632259219558,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/index/page-data.json",
+          "time" : {
+            "start" : 1632259219559,
+            "stop" : 1632259219559,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "log (\"STEP: 1 - Check Home page title\")",
+          "time" : {
+            "start" : 1632259219561,
+            "stop" : 1632259219568,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "STEP: 1 - Check Home page title",
+      "time" : {
+        "start" : 1632259219568,
+        "stop" : 1632259220970,
+        "duration" : 1402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check title",
+      "time" : {
+        "start" : 1632259219569,
+        "stop" : 1632259220970,
+        "duration" : 1401
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"ADDITIONAL INFO: Check title\")",
+        "time" : {
+          "start" : 1632259219570,
+          "stop" : 1632259219574,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"h1 a\")",
+        "time" : {
+          "start" : 1632259219574,
+          "stop" : 1632259220970,
+          "duration" : 1396
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<a>** to have text **Gatsby Default Starter** assert",
+        "time" : {
+          "start" : 1632259220969,
+          "stop" : 1632259220969,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/sq/d/3649515864.json",
+        "time" : {
+          "start" : 1632259220969,
+          "stop" : 1632259220969,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/sq/d/63159454.json",
+        "time" : {
+          "start" : 1632259220970,
+          "stop" : 1632259220970,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1632259220979,
+        "stop" : 1632259223126,
+        "duration" : 2147
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"Postcondition  STEP: 1 - Clear Cookies\")",
+        "time" : {
+          "start" : 1632259220980,
+          "stop" : 1632259220983,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clear Cookies",
+      "time" : {
+        "start" : 1632259220984,
+        "stop" : 1632259234090,
+        "duration" : 13106
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"ADDITIONAL INFO: Clear Cookies\")",
+        "time" : {
+          "start" : 1632259220984,
+          "stop" : 1632259220987,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "clearCookies",
+        "time" : {
+          "start" : 1632259220987,
+          "stop" : 1632259221121,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/page-2/page-data.json",
+        "time" : {
+          "start" : 1632259221121,
+          "stop" : 1632259221121,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/using-typescript/page-data.json",
+        "time" : {
+          "start" : 1632259221121,
+          "stop" : 1632259221121,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait (\"2000\")",
+        "time" : {
+          "start" : 1632259221121,
+          "stop" : 1632259223125,
+          "duration" : 2004
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log (\"Precondition STEP: 1 - Open Home Page\")",
+        "time" : {
+          "start" : 1632259223190,
+          "stop" : 1632259223192,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Open Home page",
+        "time" : {
+          "start" : 1632259223192,
+          "stop" : 1632259234090,
+          "duration" : 10898
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "log (\"ADDITIONAL INFO: Open Home page\")",
+          "time" : {
+            "start" : 1632259223192,
+            "stop" : 1632259223193,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "visit (\"/\")",
+          "time" : {
+            "start" : 1632259223193,
+            "stop" : 1632259223730,
+            "duration" : 537
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/app-data.json",
+          "time" : {
+            "start" : 1632259223729,
+            "stop" : 1632259223729,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/dev-404-page/page-data.json",
+          "time" : {
+            "start" : 1632259223730,
+            "stop" : 1632259223730,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/404.html/page-data.json",
+          "time" : {
+            "start" : 1632259223730,
+            "stop" : 1632259223730,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET http://localhost:8000/page-data/index/page-data.json",
+          "time" : {
+            "start" : 1632259223730,
+            "stop" : 1632259223730,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "log (\"STEP: 1 - Check Home page title\")",
+          "time" : {
+            "start" : 1632259223731,
+            "stop" : 1632259223732,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 14,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "name" : "home_page_spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 34,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home page spec [CHROME - win32] "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "OK",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ff6a077194e6f43a.json",
+  "parameterValues" : [ ]
+}
