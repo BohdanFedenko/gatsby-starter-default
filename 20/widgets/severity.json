@@ -1,0 +1,91 @@
+[ {
+  "uid" : "b499955217bc9e1e",
+  "name" : "Passed test [EDGE - win32] ",
+  "time" : {
+    "start" : 1632518221372,
+    "stop" : 1632518224814,
+    "duration" : 3442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72ad010b627db9d7",
+  "name" : "Failed test [CHROME - win32] ",
+  "time" : {
+    "start" : 1632518094589,
+    "stop" : 1632518105978,
+    "duration" : 11389
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca2022f0aff11c49",
+  "name" : "Failed test [CHROME - darwin] ",
+  "time" : {
+    "start" : 1632517854535,
+    "stop" : 1632517865916,
+    "duration" : 11381
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f2463404e03e878",
+  "name" : "Skipped test [CHROME - darwin] ",
+  "time" : {
+    "start" : 1632517868016,
+    "stop" : 1632517868017,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5c54464e047cda13",
+  "name" : "Passed test [CHROME - win32] ",
+  "time" : {
+    "start" : 1632518088485,
+    "stop" : 1632518092476,
+    "duration" : 3991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e3e55e836ab7eb4",
+  "name" : "Skipped test [CHROME - win32] ",
+  "time" : {
+    "start" : 1632518108084,
+    "stop" : 1632518108085,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c8e47df73bd26dae",
+  "name" : "Skipped test [EDGE - win32] ",
+  "time" : {
+    "start" : 1632518239890,
+    "stop" : 1632518239891,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7a1ba4e9fc0e715",
+  "name" : "Passed test [CHROME - darwin] ",
+  "time" : {
+    "start" : 1632517848709,
+    "stop" : 1632517852266,
+    "duration" : 3557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "184cd51a98fe4c91",
+  "name" : "Failed test [EDGE - win32] ",
+  "time" : {
+    "start" : 1632518226889,
+    "stop" : 1632518237770,
+    "duration" : 10881
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
