@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Home page spec [FIREFOX - win32] ",
+    "children" : [ {
+      "name" : "Passed test [FIREFOX - win32] ",
+      "uid" : "68acba59e6f184",
+      "parentUid" : "1a1bd139adeb34f217adb3e3f495ca29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632477357322,
+        "stop" : 1632477360080,
+        "duration" : 2758
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Failed test [FIREFOX - win32] ",
+      "uid" : "f055699cdcce8682",
+      "parentUid" : "1a1bd139adeb34f217adb3e3f495ca29",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632477362164,
+        "stop" : 1632477373253,
+        "duration" : 11089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Skipped test [FIREFOX - win32] ",
+      "uid" : "f15239dc3305cefa",
+      "parentUid" : "1a1bd139adeb34f217adb3e3f495ca29",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1632477375439,
+        "stop" : 1632477375443,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1a1bd139adeb34f217adb3e3f495ca29"
+  } ],
+  "name" : "suites"
+}
