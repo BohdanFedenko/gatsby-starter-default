@@ -1,0 +1,31 @@
+[ {
+  "uid" : "a8d9da68df0a73b1",
+  "name" : "Failed test [CHROME - darwin] ",
+  "time" : {
+    "start" : 1632493109943,
+    "stop" : 1632493120766,
+    "duration" : 10823
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "351446cf8495153a",
+  "name" : "Skipped test [CHROME - darwin] ",
+  "time" : {
+    "start" : 1632493122844,
+    "stop" : 1632493122846,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c548ee0f746c050d",
+  "name" : "Passed test [CHROME - darwin] ",
+  "time" : {
+    "start" : 1632493104477,
+    "stop" : 1632493107495,
+    "duration" : 3018
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
