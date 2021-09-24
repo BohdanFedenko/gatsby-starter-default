@@ -1,0 +1,31 @@
+[ {
+  "uid" : "7e7eae1bc4767506",
+  "name" : "Passed test [CHROME - win32] ",
+  "time" : {
+    "start" : 1632491249051,
+    "stop" : 1632491252211,
+    "duration" : 3160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b038cb440587a02",
+  "name" : "Skipped test [CHROME - win32] ",
+  "time" : {
+    "start" : 1632491267238,
+    "stop" : 1632491267239,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b72d2fea255e6064",
+  "name" : "Failed test [CHROME - win32] ",
+  "time" : {
+    "start" : 1632491254283,
+    "stop" : 1632491265151,
+    "duration" : 10868
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
