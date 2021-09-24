@@ -53,7 +53,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           # we have already installed all dependencies above
-          install: false
+          install: true
           start: npm run test:e2e:ci:chrome
           browser: chrome
           record: true
