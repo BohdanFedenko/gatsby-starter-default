@@ -1,0 +1,121 @@
+[ {
+  "uid" : "7be08b9c7de13d7f",
+  "name" : "Skipped test [CHROME - win32] ",
+  "time" : {
+    "start" : 1632473776811,
+    "stop" : 1632473776812,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1d2d4554e58b3549",
+  "name" : "Passed test [FIREFOX - win32] ",
+  "time" : {
+    "start" : 1632473788747,
+    "stop" : 1632473791260,
+    "duration" : 2513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83273c8ecb4e1d3c",
+  "name" : "Skipped test [CHROME - darwin] ",
+  "time" : {
+    "start" : 1632473660275,
+    "stop" : 1632473660277,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "33b539a093863ff0",
+  "name" : "Passed test [CHROME - darwin] ",
+  "time" : {
+    "start" : 1632473642328,
+    "stop" : 1632473644856,
+    "duration" : 2528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4daa208fad87519",
+  "name" : "Failed test [CHROME - darwin] ",
+  "time" : {
+    "start" : 1632473647016,
+    "stop" : 1632473658112,
+    "duration" : 11096
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "999cd0c943e06231",
+  "name" : "Failed test [FIREFOX - win32] ",
+  "time" : {
+    "start" : 1632473793429,
+    "stop" : 1632473804549,
+    "duration" : 11120
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa3656266e798d72",
+  "name" : "Failed test [EDGE - win32] ",
+  "time" : {
+    "start" : 1632473780234,
+    "stop" : 1632473791701,
+    "duration" : 11467
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9c41ed47bd62732",
+  "name" : "Skipped test [EDGE - win32] ",
+  "time" : {
+    "start" : 1632473793803,
+    "stop" : 1632473793805,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "64bec4494491dbd2",
+  "name" : "Passed test [EDGE - win32] ",
+  "time" : {
+    "start" : 1632473774572,
+    "stop" : 1632473778106,
+    "duration" : 3534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce098bbe687202fd",
+  "name" : "Skipped test [FIREFOX - win32] ",
+  "time" : {
+    "start" : 1632473806711,
+    "stop" : 1632473806715,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f59d40b8224be8c3",
+  "name" : "Failed test [CHROME - win32] ",
+  "time" : {
+    "start" : 1632473762723,
+    "stop" : 1632473774667,
+    "duration" : 11944
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cce05ebeba757418",
+  "name" : "Passed test [CHROME - win32] ",
+  "time" : {
+    "start" : 1632473756135,
+    "stop" : 1632473760587,
+    "duration" : 4452
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
