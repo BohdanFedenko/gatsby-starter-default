@@ -1,6 +1,5 @@
 {
   "projectId": "es89sd",
-  "baseUrl": "http://localhost:8000",
   "watchForFileChanges": false,
   "defaultCommandTimeout": 10000,
   "pageLoadTimeout": 60000,
@@ -8,6 +7,7 @@
   "viewportHeight": 1080,
   "viewportWidth": 1920,
   "env": {
-    "allure": true
+    "allure": true,
+    "development_url": "http://localhost:8000"
   }
 }

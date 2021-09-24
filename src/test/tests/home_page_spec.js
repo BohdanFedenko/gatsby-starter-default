@@ -18,7 +18,7 @@ describe('Home page spec' + browserPlusPlatformNames, () => {
 
     beforeEach(() => {
         logPreCondition(1, 'Open Home Page');
-        baseTest.visit();
+        baseTest.visit(Cypress.env('development_url'));
     })
 
     afterEach(() => {

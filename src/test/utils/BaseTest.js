@@ -8,10 +8,10 @@ const log = new Logger().additionalInfo();
 
 export default class BaseTest {
 
-    visit() {
+    visit(url) {
         startStep('Open Home page');
         log('Open Home page');
-        cy.visit('/');
+        cy.visit(url);
     }
 
     clearCookies() {
