@@ -1,0 +1,31 @@
+[ {
+  "uid" : "ded0e73532dc4333",
+  "name" : "Passed test [FIREFOX - win32] ",
+  "time" : {
+    "start" : 1632604329856,
+    "stop" : 1632604332304,
+    "duration" : 2448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77af7bc5b4eb7088",
+  "name" : "Skipped test [FIREFOX - win32] ",
+  "time" : {
+    "start" : 1632604347491,
+    "stop" : 1632604347495,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a5306525e513f534",
+  "name" : "Failed test [FIREFOX - win32] ",
+  "time" : {
+    "start" : 1632604334393,
+    "stop" : 1632604345303,
+    "duration" : 10910
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
