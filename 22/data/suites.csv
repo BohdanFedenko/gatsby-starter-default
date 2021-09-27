@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Sep 26 21:12:01 GMT 2021","Sun Sep 26 21:12:04 GMT 2021","2799","","Home page spec [FIREFOX - win32] ","","","","Passed test [FIREFOX - win32] ",""
-"skipped","Sun Sep 26 21:12:19 GMT 2021","Sun Sep 26 21:12:19 GMT 2021","4","","Home page spec [FIREFOX - win32] ","","","","Skipped test [FIREFOX - win32] ",""
-"failed","Sun Sep 26 21:12:06 GMT 2021","Sun Sep 26 21:12:17 GMT 2021","10969","","Home page spec [FIREFOX - win32] ","","","","Failed test [FIREFOX - win32] ",""
