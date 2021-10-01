@@ -1,0 +1,266 @@
+{
+  "uid" : "fe445c05ba08e7aa",
+  "name" : "Failed test [FIREFOX - win32] ",
+  "fullName" : "Failed test [FIREFOX - win32] ",
+  "historyId" : "a4649b22c55d163fa6c6c3b0e390b53d",
+  "time" : {
+    "start" : 1633122771713,
+    "stop" : 1633122782729,
+    "duration" : 11016
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'\n    checkTitle@http://localhost:8000/__cypress/tests?p=src\\test\\tests\\home_page_spec.js:159:28\n    ./src/test/tests/home_page_spec.js/</<@http://localhost:8000/__cypress/tests?p=src\\test\\tests\\home_page_spec.js:216:17\n    setRunnable/runnable.fn@http://localhost:8000/__cypress/runner/cypress_runner.js:153638:45\n    callFn@http://localhost:8000/__cypress/runner/cypress_runner.js:109370:21\n    onRunnableRun/<@http://localhost:8000/__cypress/runner/cypress_runner.js:159643:28\n    finallyHandler@http://localhost:8000/__cypress/runner/cypress_runner.js:7352:23\n    tryCatcher@http://localhost:8000/__cypress/runner/cypress_runner.js:10798:23\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:8000/__cypress/runner/cypress_runner.js:8733:31\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:8000/__cypress/runner/cypress_runner.js:8790:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:8000/__cypress/runner/cypress_runner.js:8835:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:8000/__cypress/runner/cypress_runner.js:8915:18\n    _drainQueueStep@http://localhost:8000/__cypress/runner/cypress_runner.js:5505:12\n    _drainQueue@http://localhost:8000/__cypress/runner/cypress_runner.js:5498:24\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://localhost:8000/__cypress/runner/cypress_runner.js:5514:16\n    Async/this.drainQueues@http://localhost:8000/__cypress/runner/cypress_runner.js:5384:14\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "should overwrite previous environment info",
+      "value" : "{\n    \"Browser\": \"firefox\",\n    \"Platform\": \"win32\",\n    \"Architecture\": \"x64\",\n    \"Cypress version\": \"8.0.0\"\n}"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+    "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'\n    checkTitle@http://localhost:8000/__cypress/tests?p=src\\test\\tests\\home_page_spec.js:159:28\n    ./src/test/tests/home_page_spec.js/</<@http://localhost:8000/__cypress/tests?p=src\\test\\tests\\home_page_spec.js:216:17\n    setRunnable/runnable.fn@http://localhost:8000/__cypress/runner/cypress_runner.js:153638:45\n    callFn@http://localhost:8000/__cypress/runner/cypress_runner.js:109370:21\n    onRunnableRun/<@http://localhost:8000/__cypress/runner/cypress_runner.js:159643:28\n    finallyHandler@http://localhost:8000/__cypress/runner/cypress_runner.js:7352:23\n    tryCatcher@http://localhost:8000/__cypress/runner/cypress_runner.js:10798:23\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:8000/__cypress/runner/cypress_runner.js:8733:31\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:8000/__cypress/runner/cypress_runner.js:8790:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:8000/__cypress/runner/cypress_runner.js:8835:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:8000/__cypress/runner/cypress_runner.js:8915:18\n    _drainQueueStep@http://localhost:8000/__cypress/runner/cypress_runner.js:5505:12\n    _drainQueue@http://localhost:8000/__cypress/runner/cypress_runner.js:5498:24\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://localhost:8000/__cypress/runner/cypress_runner.js:5514:16\n    Async/this.drainQueues@http://localhost:8000/__cypress/runner/cypress_runner.js:5384:14\n",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1633122771714,
+        "stop" : 1633122772581,
+        "duration" : 867
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "STEP: 1 - Check Home page title",
+      "time" : {
+        "start" : 1633122772587,
+        "stop" : 1633122782727,
+        "duration" : 10140
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check title",
+      "time" : {
+        "start" : 1633122772588,
+        "stop" : 1633122782727,
+        "duration" : 10139
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "log (\"ADDITIONAL INFO: Check title\")",
+        "time" : {
+          "start" : 1633122772589,
+          "stop" : 1633122772591,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"h1 a\")",
+        "time" : {
+          "start" : 1633122772591,
+          "stop" : 1633122782727,
+          "duration" : 10136
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<a>** to have text **Gatsby Default Starter 2**, but the text was **Gatsby Default Starter** assert",
+        "time" : {
+          "start" : 1633122782727,
+          "stop" : 1633122782727,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1633122782729,
+        "stop" : 1633122784775,
+        "duration" : 2046
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"Postcondition  STEP: 1 - Clear Cookies\")",
+        "time" : {
+          "start" : 1633122782731,
+          "stop" : 1633122782738,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clear Cookies",
+      "time" : {
+        "start" : 1633122782738,
+        "stop" : 1633122784905,
+        "duration" : 2167
+      },
+      "status" : "skipped",
+      "steps" : [ {
+        "name" : "log (\"ADDITIONAL INFO: Clear Cookies\")",
+        "time" : {
+          "start" : 1633122782739,
+          "stop" : 1633122782743,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "clearCookies",
+        "time" : {
+          "start" : 1633122782743,
+          "stop" : 1633122782769,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait (\"2000\")",
+        "time" : {
+          "start" : 1633122782769,
+          "stop" : 1633122784775,
+          "duration" : 2006
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "name" : "home_page_spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    }, {
+      "uid" : "f286f4307b120c83",
+      "name" : "home_page_spec.js:2021-10-01T21:13:02.602Z",
+      "source" : "f286f4307b120c83.png",
+      "type" : "image/png",
+      "size" : 67699
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home page spec [FIREFOX - win32] "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fe445c05ba08e7aa.json",
+  "parameterValues" : [ ]
+}
