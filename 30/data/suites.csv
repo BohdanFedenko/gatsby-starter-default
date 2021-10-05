@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"skipped","Mon Oct 04 21:10:32 GMT 2021","Mon Oct 04 21:10:32 GMT 2021","1","","Home page spec [CHROME - darwin] ","","","","Skipped test [CHROME - darwin] ",""
-"passed","Mon Oct 04 21:10:14 GMT 2021","Mon Oct 04 21:10:16 GMT 2021","2669","","Home page spec [CHROME - darwin] ","","","","Passed test [CHROME - darwin] ",""
-"failed","Mon Oct 04 21:10:19 GMT 2021","Mon Oct 04 21:10:30 GMT 2021","11308","","Home page spec [CHROME - darwin] ","","","","Failed test [CHROME - darwin] ",""
