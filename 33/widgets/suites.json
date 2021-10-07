@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "1a1bd139adeb34f217adb3e3f495ca29",
+    "name" : "Home page spec [FIREFOX - win32] ",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "bbbd5656973f3019486cc9ecfff66617",
+    "name" : "Home page spec [CHROME - win32] ",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "8cbe64ecbb6067834de1221eb7e8ba87",
+    "name" : "Home page spec [EDGE - win32] ",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "98ee53a9bdbe37bb1c7f236fc2320904",
+    "name" : "Home page spec [CHROME - darwin] ",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}
