@@ -1,0 +1,67 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "OK",
+    "children" : [ {
+      "children" : [ {
+        "name" : "Passed test [EDGE - win32] ",
+        "uid" : "442cff10f4c16bf9",
+        "parentUid" : "40956da604857757bf8548d3aba677cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634073084926,
+          "stop" : 1634073088787,
+          "duration" : 3861
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40956da604857757bf8548d3aba677cf"
+    } ],
+    "uid" : "f47c5cd391a37a36ef418a80c5c5c6fa"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+      "children" : [ {
+        "name" : "Failed test [EDGE - win32] ",
+        "uid" : "33afeaae1e6ee2a4",
+        "parentUid" : "343818d8f549b3bb06670d7fa51095f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634073090980,
+          "stop" : 1634073102007,
+          "duration" : 11027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "343818d8f549b3bb06670d7fa51095f6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Ignored tests",
+    "children" : [ {
+      "name" : "Test ignored",
+      "children" : [ {
+        "name" : "Skipped test [EDGE - win32] ",
+        "uid" : "d1df9d52398d4c88",
+        "parentUid" : "07892ecb169c973266143e2d0cc5753a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1634073104096,
+          "stop" : 1634073104097,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07892ecb169c973266143e2d0cc5753a"
+    } ],
+    "uid" : "de462066317a26259da5dbde82325643"
+  } ],
+  "name" : "categories"
+}
