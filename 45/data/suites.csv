@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Oct 19 21:12:11 GMT 2021","Tue Oct 19 21:12:15 GMT 2021","4269","","Home page spec [EDGE - win32] ","","","","Passed test [EDGE - win32] ",""
+"skipped","Tue Oct 19 21:12:31 GMT 2021","Tue Oct 19 21:12:31 GMT 2021","2","","Home page spec [EDGE - win32] ","","","","Skipped test [EDGE - win32] ",""
+"failed","Tue Oct 19 21:12:17 GMT 2021","Tue Oct 19 21:12:29 GMT 2021","11270","","Home page spec [EDGE - win32] ","","","","Failed test [EDGE - win32] ",""
