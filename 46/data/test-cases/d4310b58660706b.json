@@ -1,0 +1,492 @@
+{
+  "uid" : "d4310b58660706b",
+  "name" : "Failed test [FIREFOX - win32] ",
+  "fullName" : "Failed test [FIREFOX - win32] ",
+  "historyId" : "a4649b22c55d163fa6c6c3b0e390b53d",
+  "time" : {
+    "start" : 1634764378587,
+    "stop" : 1634764389754,
+    "duration" : 11167
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'\n    checkTitle@http://localhost:8000/__cypress/tests?p=src\\test\\tests\\home_page_spec.js:159:28\n    ./src/test/tests/home_page_spec.js/</<@http://localhost:8000/__cypress/tests?p=src\\test\\tests\\home_page_spec.js:216:17\n    setRunnable/runnable.fn@http://localhost:8000/__cypress/runner/cypress_runner.js:153638:45\n    callFn@http://localhost:8000/__cypress/runner/cypress_runner.js:109370:21\n    onRunnableRun/<@http://localhost:8000/__cypress/runner/cypress_runner.js:159643:28\n    finallyHandler@http://localhost:8000/__cypress/runner/cypress_runner.js:7352:23\n    tryCatcher@http://localhost:8000/__cypress/runner/cypress_runner.js:10798:23\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:8000/__cypress/runner/cypress_runner.js:8733:31\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:8000/__cypress/runner/cypress_runner.js:8790:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:8000/__cypress/runner/cypress_runner.js:8835:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:8000/__cypress/runner/cypress_runner.js:8915:18\n    _drainQueueStep@http://localhost:8000/__cypress/runner/cypress_runner.js:5505:12\n    _drainQueue@http://localhost:8000/__cypress/runner/cypress_runner.js:5498:24\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://localhost:8000/__cypress/runner/cypress_runner.js:5514:16\n    Async/this.drainQueues@http://localhost:8000/__cypress/runner/cypress_runner.js:5384:14\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "should overwrite previous environment info",
+      "value" : "{\n    \"Browser\": \"firefox\",\n    \"Platform\": \"win32\",\n    \"Architecture\": \"x64\",\n    \"Cypress version\": \"8.0.0\"\n}"
+    } ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+    "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'\n    checkTitle@http://localhost:8000/__cypress/tests?p=src\\test\\tests\\home_page_spec.js:159:28\n    ./src/test/tests/home_page_spec.js/</<@http://localhost:8000/__cypress/tests?p=src\\test\\tests\\home_page_spec.js:216:17\n    setRunnable/runnable.fn@http://localhost:8000/__cypress/runner/cypress_runner.js:153638:45\n    callFn@http://localhost:8000/__cypress/runner/cypress_runner.js:109370:21\n    onRunnableRun/<@http://localhost:8000/__cypress/runner/cypress_runner.js:159643:28\n    finallyHandler@http://localhost:8000/__cypress/runner/cypress_runner.js:7352:23\n    tryCatcher@http://localhost:8000/__cypress/runner/cypress_runner.js:10798:23\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:8000/__cypress/runner/cypress_runner.js:8733:31\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:8000/__cypress/runner/cypress_runner.js:8790:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:8000/__cypress/runner/cypress_runner.js:8835:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:8000/__cypress/runner/cypress_runner.js:8915:18\n    _drainQueueStep@http://localhost:8000/__cypress/runner/cypress_runner.js:5505:12\n    _drainQueue@http://localhost:8000/__cypress/runner/cypress_runner.js:5498:24\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://localhost:8000/__cypress/runner/cypress_runner.js:5514:16\n    Async/this.drainQueues@http://localhost:8000/__cypress/runner/cypress_runner.js:5384:14\n",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1634764378588,
+        "stop" : 1634764379453,
+        "duration" : 865
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "STEP: 1 - Check Home page title",
+      "time" : {
+        "start" : 1634764379460,
+        "stop" : 1634764389751,
+        "duration" : 10291
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check title",
+      "time" : {
+        "start" : 1634764379462,
+        "stop" : 1634764389752,
+        "duration" : 10290
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "log (\"ADDITIONAL INFO: Check title\")",
+        "time" : {
+          "start" : 1634764379463,
+          "stop" : 1634764379466,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"h1 a\")",
+        "time" : {
+          "start" : 1634764379466,
+          "stop" : 1634764389751,
+          "duration" : 10285
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<a>** to have text **Gatsby Default Starter 2**, but the text was **Gatsby Default Starter** assert",
+        "time" : {
+          "start" : 1634764389749,
+          "stop" : 1634764389749,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET http://localhost:8000/page-data/using-typescript/page-data.json",
+        "time" : {
+          "start" : 1634764389751,
+          "stop" : 1634764389751,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1634764389757,
+        "stop" : 1634764391843,
+        "duration" : 2086
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"Postcondition  STEP: 1 - Clear Cookies\")",
+        "time" : {
+          "start" : 1634764389762,
+          "stop" : 1634764389779,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clear Cookies",
+      "time" : {
+        "start" : 1634764389781,
+        "stop" : 1634764391942,
+        "duration" : 2161
+      },
+      "status" : "skipped",
+      "steps" : [ {
+        "name" : "log (\"ADDITIONAL INFO: Clear Cookies\")",
+        "time" : {
+          "start" : 1634764389783,
+          "stop" : 1634764389794,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "clearCookies",
+        "time" : {
+          "start" : 1634764389794,
+          "stop" : 1634764389829,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait (\"2000\")",
+        "time" : {
+          "start" : 1634764389829,
+          "stop" : 1634764391841,
+          "duration" : 2012
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "name" : "home_page_spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    }, {
+      "uid" : "630cd131ecd86f54",
+      "name" : "home_page_spec.js:2021-10-20T21:13:09.549Z",
+      "source" : "630cd131ecd86f54.png",
+      "type" : "image/png",
+      "size" : 66699
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Home page spec [FIREFOX - win32] "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 26,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 26
+      },
+      "items" : [ {
+        "uid" : "7a8a979685a8b978",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/45//#testresult/7a8a979685a8b978",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1634677922614,
+          "stop" : 1634677933449,
+          "duration" : 10835
+        }
+      }, {
+        "uid" : "5983798f466d2d6d",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/44//#testresult/5983798f466d2d6d",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1634591522597,
+          "stop" : 1634591533695,
+          "duration" : 11098
+        }
+      }, {
+        "uid" : "cfe84c59ed20b754",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/43//#testresult/cfe84c59ed20b754",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1634505143777,
+          "stop" : 1634505154691,
+          "duration" : 10914
+        }
+      }, {
+        "uid" : "78d24284da2be9e4",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/42//#testresult/78d24284da2be9e4",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1634418686968,
+          "stop" : 1634418697899,
+          "duration" : 10931
+        }
+      }, {
+        "uid" : "5f9e26846ff011e9",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/41//#testresult/5f9e26846ff011e9",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1634332377069,
+          "stop" : 1634332387968,
+          "duration" : 10899
+        }
+      }, {
+        "uid" : "a84a50912ea511a5",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/40//#testresult/a84a50912ea511a5",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1634245974631,
+          "stop" : 1634245985702,
+          "duration" : 11071
+        }
+      }, {
+        "uid" : "c5575a2510fa6235",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/39//#testresult/c5575a2510fa6235",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1634159559164,
+          "stop" : 1634159570196,
+          "duration" : 11032
+        }
+      }, {
+        "uid" : "4b5288d063967f68",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/38//#testresult/4b5288d063967f68",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1634073167382,
+          "stop" : 1634073178385,
+          "duration" : 11003
+        }
+      }, {
+        "uid" : "c0206d8ef89d02af",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/37//#testresult/c0206d8ef89d02af",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1633986720050,
+          "stop" : 1633986731008,
+          "duration" : 10958
+        }
+      }, {
+        "uid" : "3d44e33565190fbd",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/36//#testresult/3d44e33565190fbd",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1633900310929,
+          "stop" : 1633900321913,
+          "duration" : 10984
+        }
+      }, {
+        "uid" : "1b707637cef08d8d",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/35//#testresult/1b707637cef08d8d",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1633813892974,
+          "stop" : 1633813903985,
+          "duration" : 11011
+        }
+      }, {
+        "uid" : "4396ec7f45fc0cd2",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/34//#testresult/4396ec7f45fc0cd2",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1633727556286,
+          "stop" : 1633727567248,
+          "duration" : 10962
+        }
+      }, {
+        "uid" : "df76b1f30e6f141a",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/33//#testresult/df76b1f30e6f141a",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1633641165432,
+          "stop" : 1633641176485,
+          "duration" : 11053
+        }
+      }, {
+        "uid" : "586916050f71f485",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/32//#testresult/586916050f71f485",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1633554784693,
+          "stop" : 1633554795912,
+          "duration" : 11219
+        }
+      }, {
+        "uid" : "8b2cf3f7364136cd",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/31//#testresult/8b2cf3f7364136cd",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1633468456051,
+          "stop" : 1633468467190,
+          "duration" : 11139
+        }
+      }, {
+        "uid" : "f59a95fd8855c9e1",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/30//#testresult/f59a95fd8855c9e1",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1633381943614,
+          "stop" : 1633381954961,
+          "duration" : 11347
+        }
+      }, {
+        "uid" : "60af0cbea6e248f7",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/29//#testresult/60af0cbea6e248f7",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1633295536932,
+          "stop" : 1633295547731,
+          "duration" : 10799
+        }
+      }, {
+        "uid" : "fbe869a094158cf4",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/28//#testresult/fbe869a094158cf4",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1633209082248,
+          "stop" : 1633209093313,
+          "duration" : 11065
+        }
+      }, {
+        "uid" : "9a054633223d05ad",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/27//#testresult/9a054633223d05ad",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1633122771713,
+          "stop" : 1633122782729,
+          "duration" : 11016
+        }
+      }, {
+        "uid" : "1deab64ec1fa3b40",
+        "reportUrl" : "https://BohdanFedenko.github.io/gatsby-starter-default/26//#testresult/1deab64ec1fa3b40",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+        "time" : {
+          "start" : 1633036362710,
+          "stop" : 1633036373947,
+          "duration" : 11237
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d4310b58660706b.json",
+  "parameterValues" : [ ]
+}

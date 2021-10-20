@@ -1,0 +1,161 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Passed test [CHROME - darwin] ",
+    "uid" : "4792f69d12100257",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634764214115,
+      "stop" : 1634764216651,
+      "duration" : 2536
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failed test [CHROME - darwin] ",
+    "uid" : "95abf334ecb154bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1634764218778,
+      "stop" : 1634764229620,
+      "duration" : 10842
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Skipped test [CHROME - darwin] ",
+    "uid" : "feb9248a60b59977",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1634764231703,
+      "stop" : 1634764231704,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Passed test [EDGE - win32] ",
+    "uid" : "d03abe1ac4338d06",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634764363360,
+      "stop" : 1634764369386,
+      "duration" : 6026
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Passed test [CHROME - win32] ",
+    "uid" : "ff61b97555c7500d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634764364851,
+      "stop" : 1634764369424,
+      "duration" : 4573
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failed test [EDGE - win32] ",
+    "uid" : "936d12aadf0661df",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1634764371488,
+      "stop" : 1634764382583,
+      "duration" : 11095
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failed test [CHROME - win32] ",
+    "uid" : "d61257c32e980fd7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1634764371658,
+      "stop" : 1634764382747,
+      "duration" : 11089
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Passed test [FIREFOX - win32] ",
+    "uid" : "f730408267629bb2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634764373917,
+      "stop" : 1634764376498,
+      "duration" : 2581
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failed test [FIREFOX - win32] ",
+    "uid" : "d4310b58660706b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1634764378587,
+      "stop" : 1634764389754,
+      "duration" : 11167
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Skipped test [EDGE - win32] ",
+    "uid" : "35080e5736f2739a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1634764384689,
+      "stop" : 1634764384691,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Skipped test [CHROME - win32] ",
+    "uid" : "f303c9f59d21cd54",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1634764384840,
+      "stop" : 1634764384841,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Skipped test [FIREFOX - win32] ",
+    "uid" : "d7587374d6e21167",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1634764391941,
+      "stop" : 1634764391945,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
