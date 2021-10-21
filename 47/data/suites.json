@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Home page spec [CHROME - win32] ",
+    "children" : [ {
+      "name" : "Passed test [CHROME - win32] ",
+      "uid" : "517be09c3525b368",
+      "parentUid" : "bbbd5656973f3019486cc9ecfff66617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634850739447,
+        "stop" : 1634850743599,
+        "duration" : 4152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Failed test [CHROME - win32] ",
+      "uid" : "4f8c69d61f387d07",
+      "parentUid" : "bbbd5656973f3019486cc9ecfff66617",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634850746166,
+        "stop" : 1634850757325,
+        "duration" : 11159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Skipped test [CHROME - win32] ",
+      "uid" : "1972a0633b6e597",
+      "parentUid" : "bbbd5656973f3019486cc9ecfff66617",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1634850759450,
+        "stop" : 1634850759452,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bbbd5656973f3019486cc9ecfff66617"
+  } ],
+  "name" : "suites"
+}
