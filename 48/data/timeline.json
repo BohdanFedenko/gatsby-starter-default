@@ -1,0 +1,44 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Skipped test [CHROME - darwin] ",
+    "uid" : "cb1f0ce282ad1b66",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1634937015647,
+      "stop" : 1634937015648,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Passed test [CHROME - darwin] ",
+    "uid" : "200c4da1bbe8118f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634936997825,
+      "stop" : 1634937000505,
+      "duration" : 2680
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failed test [CHROME - darwin] ",
+    "uid" : "8d66c97a64833c13",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1634937002652,
+      "stop" : 1634937013564,
+      "duration" : 10912
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "timeline"
+}
