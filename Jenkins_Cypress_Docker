@@ -1,0 +1,83 @@
+// https://raw.githubusercontent.com/cypress-io/cypress-example-kitchensink/master/Jenkinsfile
+pipeline {
+  agent {
+    // this image provides everything needed to run Cypress
+    docker {
+      image 'cypress/included:8.6.0'
+      args "--entrypoint=''"
+    }
+  }
+  stages {
+    // first stage installs node dependencies and Cypress binary
+    stage('dependencies') {
+      steps {
+        // there a few default environment variables on Jenkins
+        // on local Jenkins machine (assuming port 8080) see
+        // http://localhost:8080/pipeline-syntax/globals#env
+        echo "Running build ${env.BUILD_ID} on ${env.JENKINS_URL}"
+        sh 'npm install'
+        sh 'npm install -g allure-commandline --save-dev'
+      }
+    }
+    // this stage runs end-to-end tests, and each agent uses the workspace
+    // from the previous stage
+    stage('cypress parallel tests') {
+      // https://jenkins.io/doc/book/pipeline/syntax/#parallel
+      environment {
+        NO_COLOR = 1
+      }
+      parallel {
+        stage('Desktop Chrome') {
+          steps {
+            echo "Running tests ${env.BUILD_ID}"
+            sh 'cypress run --browser chrome --headless --config-file src/test/configs/config_one.json'
+          }
+          post {
+              always {
+                script {
+                //allure([
+                //     includeProperties: false,
+                //    jdk: '',
+                //    properties: [],
+                //    reportBuildPolicy: 'ALWAYS',
+                //    results: [[path: 'allure-results']]
+                //  ])
+                archiveArtifacts artifacts: '**/allure-results/**.*', followSymlinks: false
+                }
+              }
+          }
+        }
+        // second tester runs the same command
+        stage('Mobile Chrome') {
+          steps {
+            echo "Running build ${env.BUILD_ID}"
+             sh 'cypress run --browser chrome --headless --config-file src/test/configs/config_two.json'
+          }
+          post {
+            always {
+              script {
+                //allure([
+                //     includeProperties: false,
+                //    jdk: '',
+                //    properties: [],
+                //    reportBuildPolicy: 'ALWAYS',
+                //    results: [[path: 'allure-results']]
+                //  ])
+                archiveArtifacts artifacts: '**/allure-results/**.*', followSymlinks: false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  post {
+    // shutdown the server running in the background
+    always {
+      //   echo "Create allure report"
+      //   sh "npm run allure-report"
+      echo 'Stopping local server'
+    //   sh 'pkill -f http-server'
+    }
+  }
+}

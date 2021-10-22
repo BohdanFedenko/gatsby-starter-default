@@ -14,11 +14,12 @@ const log = logger.testStep(allureStep);
 const logPreCondition = logger.preConditionStep();
 const logPostCondition = logger.postConditionStep();
 
-describe('Home page spec' + browserPlusPlatformNames, () => {
+describe('Home page one spec' + browserPlusPlatformNames, () => {
 
     beforeEach(() => {
         logPreCondition(1, 'Open Home Page');
-        baseTest.visit(Cypress.env('development_url'));
+        // baseTest.visit(Cypress.env('development_url'));
+        baseTest.visit('https://www.google.com.ua/');
     })
 
     afterEach(() => {
@@ -29,7 +30,6 @@ describe('Home page spec' + browserPlusPlatformNames, () => {
     //Passed test
     it('Passed test' + browserPlusPlatformNames, () => {
         log(1, 'Check Home page title')
-        headerSteps.checkTitle(mainProperties.title());
     })
 
     //Failed test
