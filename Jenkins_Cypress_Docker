@@ -4,7 +4,7 @@ pipeline {
     // this image provides everything needed to run Cypress
     docker {
       image 'cypress/included:8.6.0'
-      args "--entrypoint='' -v %cd%:/usr/src/"
+      args "--entrypoint=''"
     }
   }
   stages {
