@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Passed test [EDGE - win32] ",
+    "uid" : "78044e41b6d874d1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635023546697,
+      "stop" : 1635023550770,
+      "duration" : 4073
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Failed test [EDGE - win32] ",
+    "uid" : "474407a8cb779839",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1635023553055,
+      "stop" : 1635023564221,
+      "duration" : 11166
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Skipped test [EDGE - win32] ",
+    "uid" : "95d1ea18278f4cf7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1635023566335,
+      "stop" : 1635023566336,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
