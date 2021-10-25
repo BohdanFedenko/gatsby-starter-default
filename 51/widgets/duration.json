@@ -1,0 +1,31 @@
+[ {
+  "uid" : "2b4ae7e0079fac6b",
+  "name" : "Skipped test [EDGE - win32] ",
+  "time" : {
+    "start" : 1635196402120,
+    "stop" : 1635196402122,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f8263c4373f8fc28",
+  "name" : "Passed test [EDGE - win32] ",
+  "time" : {
+    "start" : 1635196382389,
+    "stop" : 1635196386458,
+    "duration" : 4069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2398744b554384a3",
+  "name" : "Failed test [EDGE - win32] ",
+  "time" : {
+    "start" : 1635196388686,
+    "stop" : 1635196399999,
+    "duration" : 11313
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
