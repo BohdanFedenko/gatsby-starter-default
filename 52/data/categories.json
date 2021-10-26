@@ -1,0 +1,184 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "OK",
+    "children" : [ {
+      "children" : [ {
+        "name" : "Passed test [CHROME - darwin] ",
+        "uid" : "bad4037ebd83f32d",
+        "parentUid" : "40956da604857757bf8548d3aba677cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635282629909,
+          "stop" : 1635282632913,
+          "duration" : 3004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Passed test [EDGE - win32] ",
+        "uid" : "cd6d3e681ff3690",
+        "parentUid" : "40956da604857757bf8548d3aba677cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635282744052,
+          "stop" : 1635282748304,
+          "duration" : 4252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Passed test [FIREFOX - win32] ",
+        "uid" : "e4eadc09eda9cf22",
+        "parentUid" : "40956da604857757bf8548d3aba677cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635282779759,
+          "stop" : 1635282782145,
+          "duration" : 2386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Passed test [CHROME - win32] ",
+        "uid" : "10e2dbce4066ccab",
+        "parentUid" : "40956da604857757bf8548d3aba677cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635282782675,
+          "stop" : 1635282787255,
+          "duration" : 4580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40956da604857757bf8548d3aba677cf"
+    } ],
+    "uid" : "f47c5cd391a37a36ef418a80c5c5c6fa"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 10000ms: expected '<a>' to have text 'Gatsby Default Starter 2', but the text was 'Gatsby Default Starter'",
+      "children" : [ {
+        "name" : "Failed test [CHROME - darwin] ",
+        "uid" : "cd36cffdadc954fc",
+        "parentUid" : "343818d8f549b3bb06670d7fa51095f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635282635160,
+          "stop" : 1635282646402,
+          "duration" : 11242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Failed test [EDGE - win32] ",
+        "uid" : "f3f2bb0a1dd19e7b",
+        "parentUid" : "343818d8f549b3bb06670d7fa51095f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635282750480,
+          "stop" : 1635282762678,
+          "duration" : 12198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Failed test [FIREFOX - win32] ",
+        "uid" : "f4b1a1e914e75a61",
+        "parentUid" : "343818d8f549b3bb06670d7fa51095f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635282784267,
+          "stop" : 1635282795214,
+          "duration" : 10947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Failed test [CHROME - win32] ",
+        "uid" : "c3d2254b92e22544",
+        "parentUid" : "343818d8f549b3bb06670d7fa51095f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635282789584,
+          "stop" : 1635282800792,
+          "duration" : 11208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "343818d8f549b3bb06670d7fa51095f6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Ignored tests",
+    "children" : [ {
+      "name" : "Test ignored",
+      "children" : [ {
+        "name" : "Skipped test [CHROME - darwin] ",
+        "uid" : "e3df23f973bd21b1",
+        "parentUid" : "07892ecb169c973266143e2d0cc5753a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1635282648504,
+          "stop" : 1635282648506,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Skipped test [EDGE - win32] ",
+        "uid" : "7d180d08172e7f7b",
+        "parentUid" : "07892ecb169c973266143e2d0cc5753a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1635282764853,
+          "stop" : 1635282764854,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Skipped test [FIREFOX - win32] ",
+        "uid" : "a59729265697c630",
+        "parentUid" : "07892ecb169c973266143e2d0cc5753a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1635282797408,
+          "stop" : 1635282797412,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Skipped test [CHROME - win32] ",
+        "uid" : "517b039c7d7a61e7",
+        "parentUid" : "07892ecb169c973266143e2d0cc5753a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1635282802951,
+          "stop" : 1635282802953,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07892ecb169c973266143e2d0cc5753a"
+    } ],
+    "uid" : "de462066317a26259da5dbde82325643"
+  } ],
+  "name" : "categories"
+}
